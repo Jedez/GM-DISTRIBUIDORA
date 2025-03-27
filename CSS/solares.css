@@ -1,0 +1,63 @@
+/* Sección de productos */
+.lentes-solares {
+    padding: 30px; /* Usa una sola propiedad padding */
+    margin: 20px auto; /* Usa una sola propiedad margin */
+    background-color: var(--color-contenedor); /* Asegúrate de que esta variable esté definida */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+}
+
+.titulo-contenedor {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--color-primario);
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.product-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Estilo de Fuente Bebas Neue */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

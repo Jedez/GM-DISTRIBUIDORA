@@ -1,0 +1,81 @@
+/* Contenedor de Productos */
+.container-productos {
+    padding: 20px;
+    padding-top: 20px; /* 80px es la altura del header y 20px el margen deseado */
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Header Contenedor */
+.header-container {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Asegura que esté por encima del contenido */
+}
+
+/* Título de la Marca */
+#marca-titulo {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--color-primario);
+    margin-bottom: 30px; /* Aumentado el margen inferior */
+}
+
+/* Lista de Productos */
+.product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Tarjeta de Producto */
+.product-card {
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+}
+
+/* Imagen de Producto */
+.product-card img {
+    width: 100%; /* Asegura que la imagen se ajuste al ancho de la tarjeta */
+    max-height: 200px; /* Establece una altura máxima para las imágenes */
+    object-fit: contain; /* Ajusta la imagen dentro del contenedor manteniendo la proporción de aspecto */
+    object-position: center;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+/* Precio */
+.price {
+    margin-top: 0.5rem;
+}
+
+/* Precio Original */
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 0.5rem;
+}
+
+/* Precio con Descuento */
+.discounted-price {
+    color: #e63946;
+    font-weight: bold;
+}
+
+/* Banner de Oferta */
+.sale-banner {
+    background-color: #e63946;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

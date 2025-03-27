@@ -1,0 +1,83 @@
+/* Variables CSS Globales */
+:root {
+    --color-primario: #2E8B57; 
+    --color-texto: #FFFFFF;
+    --color-hover: #A8D5BA;
+    --color-boton: #A8D5BA;
+    --color-fondo: #EAF4F4; 
+    --color-fondo2: #5ce1e66b;
+    --color-secundario: #5ce1e6;
+    --color-gm: #5ce1e63a;
+    --color-verdeagua: #C7F9CC;
+    --grisClaro: #f5f5f5;
+    --blanco: #ffffff;
+}
+
+/* Reset CSS */
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    box-sizing: border-box;
+    background-color: var(--color-fondo);
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Krub', sans-serif;
+    background-color: var(--color-fondo);
+    margin: 0;
+    padding: 0;
+    padding-top: 70px; /* Agrega esta línea y ajusta el valor */
+}
+
+main {
+    /* Otros estilos que ya tengas */
+    padding-top: 70px; /* Agrega esta línea y ajusta el valor */
+}
+
+/* Box Sizing */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Estilos de Sombra */
+.sombra {
+    box-shadow: 0 5px 15px 0 rgba(112, 112, 112, 0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* Tipografía */
+h1 {
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* Clases de Utilidad */
+.w-sm-100 {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .w-sm-100 {
+        width: auto;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.alinear-derecha {
+    justify-content: flex-end;
+}

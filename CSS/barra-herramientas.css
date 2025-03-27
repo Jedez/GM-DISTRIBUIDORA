@@ -1,0 +1,165 @@
+/* Barra de Navegación (Navbar) */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--color-primario);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset CSS (Mejorado) */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo Inicio */
+.logoInicio img {
+    max-width: 50px;
+    height: auto;
+}
+
+.logoInicio {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* Enlaces de Navegación */
+.navbar-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    color: var(--color-texto);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar-links a:hover {
+    background-color: var(--color-hover);
+    color: var(--color-primario);
+}
+
+/* Contenedor de Búsqueda */
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.contenedor-busqueda {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.busqueda {
+    padding: 8px 12px;
+    background-color: var(--color-boton);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.busqueda:hover {
+    background-color: var(--color-hover);
+}
+
+/* Menú de Usuario */
+.user-container {
+    position: relative; /* Cambiado a relative */
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#user-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Posiciona el menú debajo del icono */
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+#user-menu ul {
+    list-style: none;
+}
+
+#user-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#user-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Pie de Página (Footer) */
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--color-fondo);
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el botón de hamburguesa */
+.icon {
+    display: none; /* Oculto por defecto en pantallas grandes */
+}
+
+/* Estilos para el menú en pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    .navbar-links {
+        display: none; /* Oculta el menú por defecto en pantallas pequeñas */
+    }
+    .icon {
+        display: block; /* Muestra el botón de hamburguesa */
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 14px 16px;
+    }
+    .navbar-links.responsive {
+        display: block; /* Asegura que el menú se muestre */
+    }
+    .navbar-links.responsive ul {
+        flex-direction: column;
+    }
+    .navbar-links.responsive ul li {
+        text-align: center;
+    }
+    .navbar-links.responsive ul li a {
+        display: block; /* Asegura que los enlaces se muestren como bloques */
+        padding: 10px;
+    }
+    .user-container {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+}

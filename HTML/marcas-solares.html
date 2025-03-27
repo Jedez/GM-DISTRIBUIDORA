@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lentes Solares</title>
+    <link rel="stylesheet" href="../CSS/solares.css">
+    <link rel="stylesheet" href="../CSS/barra-herramientas.css">
+    <link rel="stylesheet" href="../CSS/estilos-paginas.css">
+    <link rel="icon" href="../IMAGENES/new-logo.png" type="image/x-icon">
+    <script src="../javaScript/barra-busqueda.js"></script>
+    <script src="../javaScript/usuario.js"></script>
+    <script src="../javaScript/solares.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logoInicio">
+            <a href="../index.html">
+                <img src="../IMAGENES/new-logo.png" alt="Logo de la tienda">
+            </a>
+        </div>
+        <div class="navbar-links">
+            <nav class="navbar-links" id="myNavbar">
+                <a href="../HTML/marcas-oftalmicos.html">Lentes Oftalmicos</a>
+                <a href="../HTML/marcas-solares.html">Lentes Solares</a>
+                <a href="../HTML/equipo-medico.html">Equipos</a>
+            </nav>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search" class="contenedor-busqueda" placeholder="Buscar producto...">
+            <button class="busqueda" onclick="searchProduct()">Buscar</button>
+        </div>
+          <!--  <div class="user-container">
+            <button id="user-button" onclick="toggleUserMenu()">
+                <img src="../IMAGENES/user-icon.png" alt="Usuario" class="user-icon">
+            </button>
+        <div id="user-menu" class="user-menu-hidden">
+                <ul>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Configuración</a></li>
+                    <li><a href="#" onclick="logout()">Cerrar sesión</a></li>
+                </ul>
+            </div>
+        </div>-->
+    </header>
+    <section class="lentes-solares">
+        <h2 class="titulo-contenedor">
+            Lentes Solares
+        </h2>
+        <div class="product-list">
+            <div class="product-card">
+                <a href="../HTML/producto-solar.html?marca=GUCCI">
+                    <img src="../IMAGENES/LOGOS/Gucci_logo.webp">
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

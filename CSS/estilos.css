@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3f2fd;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 350px;
+}
+
+h1 {
+    color: #1565c0;
+    margin-bottom: 20px;
+}
+
+.logo-bienvenida {
+    width: 150px;
+    height: auto;
+    margin: 0 auto 15px auto;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #1e88e5;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+.btn {
+    width: 100%;
+    box-sizing: border-box; /* Garantiza que padding y border no sumen tamaño */
+    padding: 12px;
+    border: 2px solid #90caf9;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #1e88e5;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+.btn-iniciar {
+    background-color: #4caf50;
+}
+
+.btn-iniciar:hover {
+    background-color: #43a047;
+}
+
+.btn-registrar {
+    background-color: #1e88e5;
+}
+
+.btn-registrar:hover {
+    background-color: #1976d2;
+}

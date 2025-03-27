@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GM DISTRIBUIDORA</title>
+    <link rel="stylesheet" href="../CSS/oftalmicos.css">
+    <link rel="stylesheet" href="../CSS/barra-herramientas.css">
+    <link rel="stylesheet" href="../CSS/estilos-paginas.css">
+    <link rel="icon" href="../IMAGENES/new-logo.png" type="image/x-icon">
+    <script src="../javaScript/barra-busqueda.js"></script>
+    <script src="../javaScript/usuario.js"></script>
+    <script src="../javaScript/productos.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logoInicio">
+            <a href="../index.html">
+                <img src="../IMAGENES/new-logo.png" alt="Logo de la tienda">
+            </a>
+        </div>
+        <div class="navbar-links">
+            <nav id="myNavbar">
+                <a href="../HTML/marcas-oftalmicos.html">Lentes Oftalmicos</a>
+                <a href="../HTML/marcas-solares.html">Lentes Solares</a>
+                <a href="../HTML/equipo-medico.html">Equipos</a>
+            </nav>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search" class="contenedor-busqueda" placeholder="Buscar producto...">
+            <button class="busqueda" onclick="searchProduct()">Buscar</button>
+        </div>
+    </header>
+
+    <section class="product-section">
+        <h2 class="titulo-contenedor" >Marcas</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=Armani-Exchange">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/Armani-Exchange-Logo.svg" alt="Lentes Oftálmicos Armani Exchange">
+                </a>
+            </div>
+             <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=burberry">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/burberry.svg" alt="Lentes Oftálmicos Burberry">
+                </a>
+            </div>
+             <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=ch">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/carolina-herrera.svg" alt="Lentes Oftálmicos Carolina Herrera">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=candies">
+                <img loading="lazy" src="../IMAGENES/LOGOS/candies.svg" alt="Lentes Oftálmicos Candies">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=carrera">
+                <img loading="lazy" src="../IMAGENES/LOGOS/carrera.svg" alt="Lentes Oftálmicos Carrera">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=coach">
+                <img loading="lazy" src="../IMAGENES/LOGOS/coach.svg" alt="Lentes Oftálmicos Coach">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=converse">
+                <img loading="lazy" src="../IMAGENES/LOGOS/Converse_logo.svg" alt="Lentes Oftálmicos Converse">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=armani">
+                <img loading="lazy" src="../IMAGENES/LOGOS/Emporio-Armani-Emblema-1.svg" alt="Lentes Oftálmicos Emporio Armani">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=flexon">
+                <img loading="lazy" src="../IMAGENES/LOGOS/flexon.svg" alt="Lentes Oftálmicos Flexon">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=forever-21">
+                <img loading="lazy" src="../IMAGENES/LOGOS/Forever-21-Logo.svg" alt="Lentes Oftálmicos Forever 21">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=GAP">
+                <img loading="lazy" src="../IMAGENES/LOGOS/Gap.svg" alt="Lentes Oftálmicos GAP">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=GUESS">
+                <img loading="lazy" src="../IMAGENES/LOGOS/1_compressed.svg" alt="Lentes Oftálmicos GUESS">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=GUESS-MARCIANO">
+                <img loading="lazy" src="../IMAGENES/LOGOS/guess-by-marciano.svg" alt="Lentes Oftálmicos GUESS MARCIANO">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=HD">
+                <img loading="lazy" src="../IMAGENES/LOGOS/2_compressed.svg" alt="Lentes Oftálmicos HD">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=HUGO-BOSS">
+                <img loading="lazy" src="../IMAGENES/LOGOS/Hugo-Boss-Logo.svg" alt="Lentes Oftálmicos HUGO BOSS">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=lacoste">
+                <img loading="lazy" src="../IMAGENES/LOGOS/lacoste.png" alt="Lentes Oftálmicos Lacoste">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=MICHAEL-KORS">
+                <img loading="lazy" src="../IMAGENES/LOGOS/4_compressed.svg" alt="Lentes Oftálmicos MICHAEL KORS">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=nike">
+                <img loading="lazy" src="../IMAGENES/LOGOS/5_compressed.svg" alt="Lentes Oftálmicos Nike">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=puma">
+                <img loading="lazy" src="../IMAGENES/LOGOS/13_compressed.svg" alt="Lentes Oftálmicos Puma">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=rayban">
+                <img loading="lazy" src="../IMAGENES/LOGOS/Ray-Ban.svg" alt="Lentes Oftálmicos Ray-Ban">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=salvatore">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/6_compressed.svg" alt="Lentes Oftálmicos Salvatore Ferragamo">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=swarosvki">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/9_compressed.svg" alt="Lentes Oftálmicos Swarovski">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=timberland">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/Timberland-logo.png" alt="Lentes Oftálmicos Timberland">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=tomford">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/Tom-Ford-logo.svg" alt="Lentes Oftálmicos Tom Ford">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=TOUS">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/tous.svg" alt="Lentes Oftálmicos TOUS">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=TH">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/tommy-hilfiger-thumb.png" alt="Lentes Oftálmicos Tommy Hilfiger">
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/producto-oftalmico.html?marca=versace">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/Versace-logo-5.png" alt="Lentes Oftálmicos Versace">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. GM distribuidora</p>
+    </footer>
+</body>
+</html>
