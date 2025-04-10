@@ -1,659 +1,829 @@
 {
     "Armani-Exchange": [
-        { "nombre": "AX3048F 8235 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax1055.webp" },
-        { "nombre": "AX1055 6000 58", "imagen": "../IMAGENES/ARMANI-EXCHANGE/AX1059.webp" },
-        { "nombre": "AX3048F 8239 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048.webp" },
-        { "nombre": "AX1059 6000 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048f.webp" }
+        { "nombre": "AX3048F 8235 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax1055.webp",  "stock":"1"  },
+        { "nombre": "AX1055 6000 58", "imagen": "../IMAGENES/ARMANI-EXCHANGE/AX1059.webp" , "stock":"1"  },
+        { "nombre": "AX3048F 8239 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048.webp" , "stock":"1"  },
+        { "nombre": "AX1059 6000 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048f.webp" ,  "stock":"2"  }
     ],
     
-   "burberry": [
-    { "nombre": "BE2316 3869 51", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2316 3869 51.webp" },
-    { "nombre": "BE2319 3002 54", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2319 3002 54.webp" },
-    { "nombre": "BE2325 4007 53", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2325 4007 53.webp" },
-    { "nombre": "BE2331F 3884 54", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2331F 3884 54.webp" },
-    { "nombre": "BE2343f 3002 53", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2343f 3002 53.webp" },
-    { "nombre": "BE2349 3001 53", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2349 3001 53.webp" },
-    { "nombre": "BE2353 3999 55", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2353 3999 55.webp" },
-    { "nombre": "BE2354F 3996 51", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2354F 3996 51.webp" },
-    { "nombre": "BE2356 3992 49", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2356 3992 49.webp" },
-    { "nombre": "BE2364F 3316 54", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2364F 3316 54.webp" },
-    { "nombre": "BE2369 3002 56", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2369 3002 56.webp" },
-    { "nombre": "BE2369 3829 54", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2369 3829 54.webp" }
+  "burberry": [
+    { "nombre": "BE2316 3869 51", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2316 3869 51.webp" , "stock":"1"  },
+    { "nombre": "BE2319 3002 54", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2319 3002 54.webp" , "stock":"1"  },
+    { "nombre": "BE2325 4007 53", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2325 4007 53.webp" , "stock":"1"  },
+    { "nombre": "BE2331F 3884 54", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2331F 3884 54.webp" , "stock":"1"  },
+    { "nombre": "BE2343f 3002 53", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2343f 3002 53.webp" , "stock":"1"  },
+    { "nombre": "BE2349 3001 53", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2349 3001 53.webp" , "stock":"1"  },
+    { "nombre": "BE2353 3999 55", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2353 3999 55.webp" , "stock":"1"  },
+    { "nombre": "BE2354F 3996 51", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2354F 3996 51.webp" , "stock":"1"  },
+    { "nombre": "BE2356 3992 49", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2356 3992 49.webp" , "stock":"1"  },
+    { "nombre": "BE2364F 3316 54", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2364F 3316 54.webp" , "stock":"1"  },
+    { "nombre": "BE2369 3002 56", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2369 3002 56.webp" , "stock":"2"  },
+    { "nombre": "BE2369 3829 54", "imagen": "../IMAGENES/BURBERRY-MODELOS/BE2369 3829 54.webp" , "stock":"1"  }
     ],
     
-    "ch": [
-    { "nombre": "VHE856K 721Y 53", "imagen": "../IMAGENES/CH-MODELOS/VHE856K 721Y 53.webp" },
-    { "nombre": "VHE851K 0743 53", "imagen": "../IMAGENES/CH-MODELOS/VHE851K 0743 53.webp" },
-    { "nombre": "VHE851K 700Y 53", "imagen": "../IMAGENES/CH-MODELOS/VHE851K 700Y 53.webp" },
-    { "nombre": "VHE846K 01GT 53", "imagen": "../IMAGENES/CH-MODELOS/VHE846K 01GT 53.webp" },
-    { "nombre": "VHE837L 722Y 51", "imagen": "../IMAGENES/CH-MODELOS/VHE837L 722Y 51.webp" },
-    { "nombre": "VHE846K 0ADD 53", "imagen": "../IMAGENES/CH-MODELOS/VHE846K 0ADD 53.webp" },
-    { "nombre": "VHE817 0GEN 53", "imagen": "../IMAGENES/CH-MODELOS/VHE817 0GEN 53.webp" },
-    { "nombre": "VHE818 0752 54", "imagen": "../IMAGENES/CH-MODELOS/VHE818 0752 54.webp" },
-    { "nombre": "VHE816K 0AFG 53", "imagen": "../IMAGENES/CH-MODELOS/VHE816K 0AFG 53.webp" },
-    { "nombre": "VHE771K 9FDY 53", "imagen": "../IMAGENES/CH-MODELOS/VHE771K 9FDY 53.webp" },
-    { "nombre": "VHE188K 0K99 55", "imagen": "../IMAGENES/CH-MODELOS/VHE188K 0K99 55.webp" }
+   "ch": [
+    { "nombre": "VHE856K 721Y 53", "imagen": "../IMAGENES/CH-MODELOS/VHE856K 721Y 53.webp" , "stock":"4"  },
+    { "nombre": "VHE851K 0743 53", "imagen": "../IMAGENES/CH-MODELOS/VHE851K 0743 53.webp" , "stock":"3"  },
+    { "nombre": "VHE851K 700Y 53", "imagen": "../IMAGENES/CH-MODELOS/VHE851K 700Y 53.webp" , "stock":"2"  },
+    { "nombre": "VHE846K 01GT 53", "imagen": "../IMAGENES/CH-MODELOS/VHE846K 01GT 53.webp" , "stock":"4"  },
+    { "nombre": "VHE837L 722Y 51", "imagen": "../IMAGENES/CH-MODELOS/VHE837L 722Y 51.webp" , "stock":"4"  },
+    { "nombre": "VHE846K 0ADD 53", "imagen": "../IMAGENES/CH-MODELOS/VHE846K 0ADD 53.webp" , "stock":"3"  },
+    { "nombre": "VHE817 0GEN 53", "imagen": "../IMAGENES/CH-MODELOS/VHE817 0GEN 53.webp" , "stock":"2"  },
+    { "nombre": "VHE818 0752 54", "imagen": "../IMAGENES/CH-MODELOS/VHE818 0752 54.webp" , "stock":"3"  },
+    { "nombre": "VHE816K 0AFG 53", "imagen": "../IMAGENES/CH-MODELOS/VHE816K 0AFG 53.webp" , "stock":"2"  },
+    { "nombre": "VHE771K 9FDY 53", "imagen": "../IMAGENES/CH-MODELOS/VHE771K 9FDY 53.webp" , "stock":"4"  },
+    { "nombre": "VHE188K 0K99 55", "imagen": "../IMAGENES/CH-MODELOS/VHE188K 0K99 55.webp" , "stock":"2"  }
 ],
 
 
-   "candies": [
-    { "nombre": "CA0213 005 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0213 005 53.webp" },
-    { "nombre": "CA0213 053 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0213 053 53.webp" },
-    { "nombre": "CA0177 001 50", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0177 001 50.webp" },
-    { "nombre": "CA0216 052 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0216 052 52.webp" },
-    { "nombre": "CA0216 001 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0216 001 52.webp" },
-    { "nombre": "CA0216 083 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0216 083 52.webp" },
-    { "nombre": "CA0212 068 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0212 068 54.webp" },
-    { "nombre": "CA0145 053 48", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0145 053 48.webp" },
-    { "nombre": "CA0201 074 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0201 074 54.webp" },
-    { "nombre": "CA0218 003 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0218 003 54.webp" },
-    { "nombre": "CA0218 074 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0218 074 54.webp" },
-    { "nombre": "CA0218 083 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0218 083 54.webp" },
-    { "nombre": "CA0209-N 092 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0209-N 092 52.webp" },
-    { "nombre": "CA0186 084 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0186 084 52.webp" },
-    { "nombre": "CA0196 052 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0196 052 53.webp" },
-    { "nombre": "CA0183 045 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0183 045 52.webp" },
-    { "nombre": "CA0183 001 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0183 001 52.webp" },
-    { "nombre": "CA0215 083 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0215 083 53.webp" },
-    { "nombre": "CA0207 069 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0207 069 53.webp" },
-    { "nombre": "CA0180 001 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0180 001 52.webp" },
-    { "nombre": "CA0181 001 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0181 001 52.webp" },
-    { "nombre": "CA0207 090 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0207 090 53.webp" },
-    { "nombre": "CA0169 001 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0169 001 53.webp" },
-    { "nombre": "CA0169 074 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0169 074 53.webp" },
-    { "nombre": "CA0207N 001 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0207N 001 53.webp" },
-    { "nombre": "CA0219 074 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0219 074 54.webp" },
-    { "nombre": "CA0219 083 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0219 083 54.webp" },
-    { "nombre": "CA0219 003 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0219 003 54.webp" },
-    { "nombre": "CA0211 071 51", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0211 071 51.webp" },
-    { "nombre": "CA0136 068 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0136 068 54.webp" },
-    { "nombre": "CAMI BRN 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CAMI BRN 53.webp" },
-    { "nombre": "CA0188 090 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0188 090 53.webp" },
-    { "nombre": "CA0197 070 55", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0197 070 55.webp" },
-    { "nombre": "CA0189 001 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0189 001 53.webp" }
+"candies": [
+  { "nombre": "CA0213 005 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0213 005 53.webp", "stock": "4" },
+  { "nombre": "CA0213 053 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0213 053 53.webp", "stock": "2" },
+  { "nombre": "CA0177 001 50", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0177 001 50.webp", "stock": "6" },
+  { "nombre": "CA0216 052 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0216 052 52.webp", "stock": "1" },
+  { "nombre": "CA0216 001 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0216 001 52.webp", "stock": "3" },
+  { "nombre": "CA0216 083 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0216 083 52.webp", "stock": "1" },
+  { "nombre": "CA0212 068 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0212 068 54.webp", "stock": "1" },
+  { "nombre": "CA0145 053 48", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0145 053 48.webp", "stock": "3" },
+  { "nombre": "CA0201 074 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0201 074 54.webp", "stock": "2" },
+  { "nombre": "CA0218 003 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0218 003 54.webp", "stock": "1" },
+  { "nombre": "CA0218 074 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0218 074 54.webp", "stock": "2" },
+  { "nombre": "CA0218 083 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0218 083 54.webp", "stock": "1" },
+  { "nombre": "CA0209-N 092 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0209-N 092 52.webp", "stock": "3" },
+  { "nombre": "CA0186 084 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0186 084 52.webp", "stock": "2" },
+  { "nombre": "CA0196 052 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0196 052 53.webp", "stock": "7" },
+  { "nombre": "CA0183 045 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0183 045 52.webp", "stock": "2" },
+  { "nombre": "CA0183 001 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0183 001 52.webp", "stock": "8" },
+  { "nombre": "CA0215 083 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0215 083 53.webp", "stock": "2" },
+  { "nombre": "CA0207 069 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0207 069 53.webp", "stock": "4" },
+  { "nombre": "CA0180 001 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0180 001 52.webp", "stock": "13" },
+  { "nombre": "CA0181 001 52", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0181 001 52.webp", "stock": "1" },
+  { "nombre": "CA0207 090 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0207 090 53.webp", "stock": "2" },
+  { "nombre": "CA0169 001 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0169 001 53.webp", "stock": "8" },
+  { "nombre": "CA0169 074 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0169 074 53.webp", "stock": "6" },
+  { "nombre": "CA0207N 001 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0207N 001 53.webp", "stock": "2" },
+  { "nombre": "CA0219 074 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0219 074 54.webp", "stock": "4" },
+  { "nombre": "CA0219 083 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0219 083 54.webp", "stock": "3" },
+  { "nombre": "CA0219 003 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0219 003 54.webp", "stock": "1" },
+  { "nombre": "CA0211 071 51", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0211 071 51.webp", "stock": "2" },
+  { "nombre": "CA0136 068 54", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0136 068 54.webp", "stock": "8" },
+  { "nombre": "CAMI BRN 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CAMI BRN 53.webp", "stock": "1" },
+  { "nombre": "CA0188 090 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0188 090 53.webp", "stock": "4" },
+  { "nombre": "CA0197 070 55", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0197 070 55.webp", "stock": "1" },
+  { "nombre": "CA0189 001 53", "imagen": "../IMAGENES/CANDIES-MODELOS/CA0189 001 53.webp", "stock": "3" }
 ],
 
-    "carrera": [
-      { "nombre": "CARRERA 8900 413 MT PALL 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8900 413 MT PALL 55.webp" },
-      { "nombre": "CARRERA 8901 413 MT PALL 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8901 413 MT PALL 54.webp" },
-      { "nombre": "CARRERA 8899 FLL MT BLUE 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 FLL MT BLUE 55.webp" },
-      { "nombre": "CARRERA 8899 I46 140", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 I46 140.webp" },
-      { "nombre": "CARRERA 8894 RNB 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8894 RNB 55.webp" },
-      { "nombre": "CARRERA 8886 7ZJ 50", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8886 7ZJ 50.webp" },
-      { "nombre": "CA6662 ORC MTBK 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CA6662.webp" },
-      { "nombre": "CARRERA 2020T 6LB 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2020T 6LB 53.webp" },
-      { "nombre": "CARRERA 308 PJP 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 308 PJP 53.webp" },
-      { "nombre": "CARRERA 205 003 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 205 003 55.webp" },
-      { "nombre": "CARRERA 8894 8LZ 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8894 8LZ 55.webp" },
-      { "nombre": "CARRERA 8901 V6D 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8901 V6D 54.webp" },
-      { "nombre": "CARRERA 8901 FLL 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8901 FLL 54.webp" },
-      { "nombre": "CARRERA 8901 I46 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8901 I46 54.webp" },
-      { "nombre": "CARRERA 8899 BLX 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 BLX 55.webp" },
-      { "nombre": "CARRERA 8899 7ZL 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 7ZL 55.webp" },
-      { "nombre": "CARRERA 8893 08A 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8893 08A 54.webp" },
-      { "nombre": "CARRERA 8893 FLL 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8893 FLL 54.webp" },
-      { "nombre": "CARRERA 8899 08A 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 08A 54.webp" },
-      { "nombre": "CARRERA 8890 08A 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8890 08A 57.webp" },
-      { "nombre": "CARRERA 8890 HVE 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8890 HVE 57.webp" },
-      { "nombre": "CARRERA 8888 807 58", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8888 807 58.webp" },
-      { "nombre": "CARRERA 8884 D51 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8884 D51 55.webp" },
-      { "nombre": "CARRERA 8880 PJP 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8880 PJP 54.webp" },
-      { "nombre": "CARRERA 8880 KB7 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8880 KB7 55.webp" },
-      { "nombre": "CARRERA 8880 807 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8880 807 54.webp" },
-      { "nombre": "CARRERA 8874 807 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8874 807 52.webp" },
-      { "nombre": "CARRERA 8872 807 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8872 807 55.webp" },
-      { "nombre": "CARRERA 8872 KB7 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8872 KB7 55.webp" },
-      { "nombre": "CARRERA 8872 PJP 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8872 PJP 55.webp" },
-      { "nombre": "CARRERA 8866 003 145", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8866 003 145.webp" },
-      { "nombre": "CARRERA 8865 PJP 145", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8865 PJP 145.webp" },
-      { "nombre": "CARRERA 8851 81V 56", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8851 81V 56.webp" },
-      { "nombre": "CARRERA 4408 3U5 56", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 4408 3U5 56.webp" },
-      { "nombre": "CARRERA 2046T 3U5 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2046T 3U5 52.webp" },
-      { "nombre": "CARRERA 2046T 7ZJ 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2046T 7ZJ 52.webp" },
-      { "nombre": "CARRERA 2046T D51 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2046T D51 52.webp" },
-      { "nombre": "CARRERA 2046T RTC 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2046T RTC 52.webp" },
-      { "nombre": "CARRERA 2042T PJP 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2042T PJP 53.webp" },
-      { "nombre": "CARRERA 2042T R80 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2042T R80 53.webp" },
-      { "nombre": "CARRERA 2042T 807 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2042T 807 53.webp" },
-      { "nombre": "CARRERA 2042T 003 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2042T 003 53.webp" },
-      { "nombre": "CARRERA 2033T FLL 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2033T FLL 55.webp" },
-      { "nombre": "CARRERA 2033T 003 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2033T 003 55.webp" },
-      { "nombre": "CARRERA 309 PJP 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 309 PJP 57.webp" },
-      { "nombre": "CARRERA 293 807 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 293 807 57.webp" },
-      { "nombre": "CARRERA 288 YZ4 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 288 YZ4 55.webp" },
-      { "nombre": "CARRERA 265 086 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 265 086 54.webp" },
-      { "nombre": "CARRERA 213/N 09Q 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 213N 09Q 52.avif" },
-      { "nombre": "CARRERA 175 086 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 175 086 55.webp" },
-      { "nombre": "CARDUC 008 807 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARDUC 008 807 57.webp" },
-      { "nombre": "CA6623 8FX 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CA6623 8FX 54.webp" }
-    ]
+  "carrera": [
+  { "nombre": "CARRERA 8900 413 MT PALL 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8900 413 MT PALL 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 8901 413 MT PALL 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8901 413 MT PALL 54.webp", "stock": "4" },
+  { "nombre": "CARRERA 8899 FLL MT BLUE 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 FLL MT BLUE 55.webp", "stock": "4" },
+  { "nombre": "CARRERA 8899 I46 140", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 I46 140.webp", "stock": "2" },
+  { "nombre": "CARRERA 8894 RNB 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8894 RNB 55.webp", "stock": "3" },
+  { "nombre": "CARRERA 8886 7ZJ 50", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8886 7ZJ 50.webp", "stock": "3" },
+  { "nombre": "CA6662 ORC MTBK 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CA6662.webp", "stock": "2" },
+  { "nombre": "CARRERA 2020T 6LB 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2020T 6LB 53.webp", "stock": "0" },
+  { "nombre": "CARRERA 308 PJP 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 308 PJP 53.webp", "stock": "2" },
+  { "nombre": "CARRERA 205 003 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 205 003 55.webp", "stock": "0" },
+  { "nombre": "CARRERA 8894 8LZ 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8894 8LZ 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 8901 V6D 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8901 V6D 54.webp", "stock": "2" },
+  { "nombre": "CARRERA 8901 FLL 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8901 FLL 54.webp", "stock": "2" },
+  { "nombre": "CARRERA 8901 I46 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8901 I46 54.webp", "stock": "2" },
+  { "nombre": "CARRERA 8899 BLX 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 BLX 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 8899 7ZL 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 7ZL 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 8893 08A 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8893 08A 54.webp", "stock": "2" },
+  { "nombre": "CARRERA 8893 FLL 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8893 FLL 54.webp", "stock": "2" },
+  { "nombre": "CARRERA 8899 08A 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8899 08A 54.webp", "stock": "2" },
+  { "nombre": "CARRERA 8890 08A 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8890 08A 57.webp", "stock": "2" },
+  { "nombre": "CARRERA 8890 HVE 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8890 HVE 57.webp", "stock": "2" },
+  { "nombre": "CARRERA 8888 807 58", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8888 807 58.webp", "stock": "2" },
+  { "nombre": "CARRERA 8884 D51 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8884 D51 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 8880 PJP 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8880 PJP 54.webp", "stock": "2" },
+  { "nombre": "CARRERA 8880 KB7 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8880 KB7 55.webp", "stock": "1" },
+  { "nombre": "CARRERA 8880 807 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8880 807 54.webp", "stock": "2" },
+  { "nombre": "CARRERA 8874 807 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8874 807 52.webp", "stock": "2" },
+  { "nombre": "CARRERA 8872 807 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8872 807 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 8872 KB7 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8872 KB7 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 8872 PJP 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8872 PJP 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 8866 003 145", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8866 003 145.webp", "stock": "1" },
+  { "nombre": "CARRERA 8865 PJP 145", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8865 PJP 145.webp", "stock": "1" },
+  { "nombre": "CARRERA 8851 81V 56", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 8851 81V 56.webp", "stock": "2" },
+  { "nombre": "CARRERA 4408 3U5 56", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 4408 3U5 56.webp", "stock": "2" },
+  { "nombre": "CARRERA 2046T 3U5 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2046T 3U5 52.webp", "stock": "3" },
+  { "nombre": "CARRERA 2046T 7ZJ 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2046T 7ZJ 52.webp", "stock": "2" },
+  { "nombre": "CARRERA 2046T D51 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2046T D51 52.webp", "stock": "2" },
+  { "nombre": "CARRERA 2046T RTC 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2046T RTC 52.webp", "stock": "2" },
+  { "nombre": "CARRERA 2042T PJP 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2042T PJP 53.webp", "stock": "2" },
+  { "nombre": "CARRERA 2042T R80 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2042T R80 53.webp", "stock": "2" },
+  { "nombre": "CARRERA 2042T 807 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2042T 807 53.webp", "stock": "2" },
+  { "nombre": "CARRERA 2042T 003 53", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2042T 003 53.webp", "stock": "2" },
+  { "nombre": "CARRERA 2033T FLL 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2033T FLL 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 2033T 003 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 2033T 003 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 309 PJP 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 309 PJP 57.webp", "stock": "2" },
+  { "nombre": "CARRERA 293 807 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 293 807 57.webp", "stock": "2" },
+  { "nombre": "CARRERA 288 YZ4 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 288 YZ4 55.webp", "stock": "2" },
+  { "nombre": "CARRERA 265 086 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 265 086 54.webp", "stock": "2" },
+  { "nombre": "CARRERA 213/N 09Q 52", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 213N 09Q 52.avif", "stock": "2" },
+  { "nombre": "CARRERA 175 086 55", "imagen": "../IMAGENES/CARRERA-MODELOS/CARRERA 175 086 55.webp", "stock": "2" },
+  { "nombre": "CARDUC 008 807 57", "imagen": "../IMAGENES/CARRERA-MODELOS/CARDUC 008 807 57.webp", "stock": "2" },
+  { "nombre": "CA6623 8FX 54", "imagen": "../IMAGENES/CARRERA-MODELOS/CA6623 8FX 54.webp", "stock": "2" }
+]
   ,
     
-    "coach":[    
-                { "nombre": "HC6202U 5715 52", "imagen": "../IMAGENES/COACH-MODELOS/HC6202U 5715 52.webp" },
-                { "nombre": "HC6163 5002 54", "imagen": "../IMAGENES/COACH-MODELOS/HC6163 5002 54.webp" },
-                { "nombre": "HC6091B 5120 53", "imagen": "../IMAGENES/COACH-MODELOS/HC6091B 5120 53.webp" },
-                { "nombre": "HC5119 9353 53", "imagen": "../IMAGENES/COACH-MODELOS/HC5119 9353 53.webp" },
-                { "nombre": "HC6202U 5120 52", "imagen": "../IMAGENES/COACH-MODELOS/HC6202U 5120 52.webp" },
-                { "nombre": "HC6143 5002 52", "imagen": "../IMAGENES/COACH-MODELOS/HC6143 5002 52.webp" },
-                { "nombre": "HC5129 5002 51", "imagen": "../IMAGENES/COACH-MODELOS/HC5129 5002 51.webp" },
-                { "nombre": "HC5103B 9331 54", "imagen": "../IMAGENES/COACH-MODELOS/HC5103B 9331 54.webp" }
-    ]
-    ,
-    "converse": [
-    { "nombre": "CV8007 501 53", "imagen": "../IMAGENES/CONVERSE-MODELOS/CV8007 501 53.webp" },
-    { "nombre": "CV5090 319 53", "imagen": "../IMAGENES/CONVERSE-MODELOS/CV5090 319 53.webp" },
-    { "nombre": "CV5081 446 50", "imagen": "../IMAGENES/CONVERSE-MODELOS/CV5081 446 50.webp" },
-    { "nombre": "CV5059 201 53", "imagen": "../IMAGENES/CONVERSE-MODELOS/CV5059 201 53.webp" },
-    { "nombre": "CV5050 970 52", "imagen": "../IMAGENES/CONVERSE-MODELOS/CV5050 970 52.webp" },
-    { "nombre": "CV5035 360 53", "imagen": "../IMAGENES/CONVERSE-MODELOS/CV5035 360 53.webp" },
-    { "nombre": "CV5034 462 53", "imagen": "../IMAGENES/CONVERSE-MODELOS/CV5034 462 53.webp" },
-    { "nombre": "CV5034 241 53", "imagen": "../IMAGENES/CONVERSE-MODELOS/CV5034 241 53.webp" },
-    { "nombre": "CV5014 201 53", "imagen": "../IMAGENES/CONVERSE-MODELOS/CV5014 201 53.webp" },
-    { "nombre": "CONVERSE A236 BLUE CRYSTAL 54", "imagen": "../IMAGENES/CONVERSE-MODELOS/CONVERSE A236 BLUE CRYSTAL 54.webp" },
-    { "nombre": "CONVERSE A228 BLACK 53", "imagen": "../IMAGENES/CONVERSE-MODELOS/CONVERSE A228 BLACK 53.webp" },
-    { "nombre": "CONVERSE A223 BLACK/BLUE 55", "imagen": "../IMAGENES/CONVERSE-MODELOS/CONVERSE A223 BLACKBLUE 55.webp" },
-    { "nombre": "CONVERSE A222 PINK 54", "imagen": "../IMAGENES/CONVERSE-MODELOS/CONVERSE A222 PINK 54.webp" }
+   "coach":[
+    { "nombre": "HC6202U 5715 52", "imagen": "../IMAGENES/COACH-MODELOS/HC6202U 5715 52.webp" , "stock":"3" },
+    { "nombre": "HC6163 5002 54", "imagen": "../IMAGENES/COACH-MODELOS/HC6163 5002 54.webp" , "stock":"4" },
+    { "nombre": "HC6091B 5120 53", "imagen": "../IMAGENES/COACH-MODELOS/HC6091B 5120 53.webp" , "stock":"3" },
+    { "nombre": "HC5119 9353 53", "imagen": "../IMAGENES/COACH-MODELOS/HC5119 9353 53.webp" , "stock":"3" },
+    { "nombre": "HC6202U 5120 52", "imagen": "../IMAGENES/COACH-MODELOS/HC6202U 5120 52.webp" , "stock":"3" },
+    { "nombre": "HC6143 5002 52", "imagen": "../IMAGENES/COACH-MODELOS/HC6143 5002 52.webp" , "stock":"1" },
+    { "nombre": "HC5129 5002 51", "imagen": "../IMAGENES/COACH-MODELOS/HC5129 5002 51.webp" , "stock":"1" },
+    { "nombre": "HC5103B 9331 54", "imagen": "../IMAGENES/COACH-MODELOS/HC5103B 9331 54.webp" , "stock":"2" }
 ]
 ,
-    "armani": [
-      {"nombre": "EA1104 3318 54","imagen": "../IMAGENES/EMPORIO-MODELOS/EA1104 3318 54.webp"},
-      {"nombre": "EA3153F 5026 53","imagen": "../IMAGENES/EMPORIO-MODELOS/EA3153F 5026 53.webp"},
-      {"nombre": "EA3162 5001 52","imagen": "../IMAGENES/EMPORIO-MODELOS/EA3162 5001 52.webp"},
-      {"nombre": "EA3165 5026 53","imagen": "../IMAGENES/EMPORIO-MODELOS/EA3165 5026 53.webp"},
-      {
-        "nombre": "EA3174 5437 52",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3174 5437 52.webp"
-      },
-      {
-        "nombre": "EA3177 5089 55",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3177 5089 55.webp"
-      },
-      {
-        "nombre": "EA3179F 5879 56",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3179F 5879 56.webp"
-      },
-      {
-        "nombre": "EA3180F 5875 53",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3180F 5875 53.webp"
-      },
-      {
-        "nombre": "EA3180 5886 53",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3180 5886 53.webp"
-      },
-      {
-        "nombre": "EA3190 5863 51",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3190 5863 51.webp"
-      },
-      {
-        "nombre": "EA3195F 5577 53",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3195F 5577 53.webp"
-      },
-      {
-        "nombre": "EA3192 5879 53",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3192 5879 53.webp"
-      },
-      {
-        "nombre": "EA3195F 5875 53",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3195F 5875 53.webp"
-      },
-      {
-        "nombre": "EA3194 5002 54",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3194 5002 54.webp"
-      },
-      {
-        "nombre": "EA3193 5025 54",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3193 5025 54.webp"
-      },
-      {
-        "nombre": "EA3185 5879 54",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3185 5879 54.webp"
-      },
-      {
-        "nombre": "EA3185 5903 54",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3185 5903 54.webp"
-      },
-      {
-        "nombre": "EA3157F 5795 54",
-        "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3157F 5795 54.webp"
-      }
+"converse": [
+    {"nombre": "CV8007 501 53", "imagen": "../IMAGENES/CONVERS-MODELOS/CV8007 501 53.webp", "stock": "2"},
+    {"nombre": "CV5090 319 53", "imagen": "../IMAGENES/CONVERS-MODELOS/CV5090 319 53.webp", "stock": "3"},
+    {"nombre": "CV5081 446 50", "imagen": "../IMAGENES/CONVERS-MODELOS/CV5081 446 50.webp", "stock": "2"},
+    {"nombre": "CV5059 201 53", "imagen": "../IMAGENES/CONVERS-MODELOS/CV5059 201 53.webp", "stock": "4"},
+    {"nombre": "CV5050 970 52", "imagen": "../IMAGENES/CONVERS-MODELOS/CV5050 970 52.webp", "stock": "2"},
+    {"nombre": "CV5035 360 53", "imagen": "../IMAGENES/CONVERS-MODELOS/CV5035 360 53.webp", "stock": "3"},
+    {"nombre": "CV5034 462 53", "imagen": "../IMAGENES/CONVERS-MODELOS/CV5034 462 53.webp", "stock": "3"},
+    {"nombre": "CV5034 241 53", "imagen": "../IMAGENES/CONVERS-MODELOS/CV5034 241 53.webp", "stock": "3"},
+    {"nombre": "CV5014 201 53", "imagen": "../IMAGENES/CONVERS-MODELOS/CV5014 201 53.webp", "stock": "3"},
+    {"nombre": "CONVERSE A236 BLUE CRYSTAL 54", "imagen": "../IMAGENES/CONVERS-MODELOS/CONVERSE A236 BLUE CRYSTAL 54.webp", "stock": "2"},
+    {"nombre": "CONVERSE A228 BLACK 53", "imagen": "../IMAGENES/CONVERS-MODELOS/CONVERSE A228 BLACK 53.webp", "stock": "3"},
+    {"nombre": "CONVERSE A223 BLACK/BLUE 55", "imagen": "../IMAGENES/CONVERS-MODELOS/CONVERSE A223 BLACKBLUE 55.webp", "stock": "2"},
+    {"nombre": "CONVERSE A222 PINK 54", "imagen": "../IMAGENES/CONVERS-MODELOS/CONVERSE A222 PINK 54.webp", "stock": "3"}
+]
+,
+   "armani": [
+  {"nombre": "EA1104 3318 54", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA1104 3318 54.webp", "stock": "1"},
+  {"nombre": "EA3153F 5026 53", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3153F 5026 53.webp", "stock": "1"},
+  {"nombre": "EA3162 5001 52", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3162 5001 52.webp", "stock": "1"},
+  {"nombre": "EA3165 5026 53", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3165 5026 53.webp", "stock": "1"},
+  {"nombre": "EA3174 5437 52", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3174 5437 52.webp", "stock": "1"},
+  {"nombre": "EA3177 5089 55", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3177 5089 55.webp", "stock": "1"},
+  {"nombre": "EA3179F 5879 56", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3179F 5879 56.webp", "stock": "1"},
+  {"nombre": "EA3180F 5875 53", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3180F 5875 53.webp", "stock": "1"},
+  {"nombre": "EA3180 5886 53", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3180 5886 53.webp", "stock": "1"},
+  {"nombre": "EA3190 5863 51", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3190 5863 51.webp", "stock": "1"},
+  {"nombre": "EA3195F 5577 53", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3195F 5577 53.webp", "stock": "1"},
+  {"nombre": "EA3192 5879 53", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3192 5879 53.webp", "stock": "1"},
+  {"nombre": "EA3195F 5875 53", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3195F 5875 53.webp", "stock": "1"},
+  {"nombre": "EA3194 5002 54", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3194 5002 54.webp", "stock": "2"},
+  {"nombre": "EA3193 5025 54", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3193 5025 54.webp", "stock": "2"},
+  {"nombre": "EA3185 5879 54", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3185 5879 54.webp", "stock": "2"},
+  {"nombre": "EA3185 5903 54", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3185 5903 54.webp", "stock": "2"},
+  {"nombre": "EA3157F 5795 54", "imagen": "../IMAGENES/EMPORIO-MODELOS/EA3157F 5795 54.webp", "stock": "2"}
+]
+,
+
+"flexon": [
+  {"nombre": "B2001 412 56", "imagen": "../IMAGENES/FLEXON-MODELOS/B2001 412 56.webp", "stock": "1"},
+  {"nombre": "B2005 001 55", "imagen": "../IMAGENES/FLEXON-MODELOS/B2005 001 55.webp", "stock": "1"},
+  {"nombre": "B2005 033 55", "imagen": "../IMAGENES/FLEXON-MODELOS/B2005 033 55.webp", "stock": "1"},
+  {"nombre": "B2024 221 50", "imagen": "../IMAGENES/FLEXON-MODELOS/B2024 221 50.webp", "stock": "1"},
+  {"nombre": "B2025 001 55", "imagen": "../IMAGENES/FLEXON-MODELOS/B2025 001 55.webp", "stock": "1"},
+  {"nombre": "B2025 412 55", "imagen": "../IMAGENES/FLEXON-MODELOS/B2025 412 55.webp", "stock": "1"},
+  {"nombre": "B2027 233 55", "imagen": "../IMAGENES/FLEXON-MODELOS/B2027 233 55.webp", "stock": "1"},
+  {"nombre": "B2037 002 55", "imagen": "../IMAGENES/FLEXON-MODELOS/B2037 002 55.webp", "stock": "1"},
+  {"nombre": "B2076 412 56", "imagen": "../IMAGENES/FLEXON-MODELOS/B2076 412 56.webp", "stock": "1"},
+  {"nombre": "B2077 033 55", "imagen": "../IMAGENES/FLEXON-MODELOS/B2077 033 55.webp", "stock": "1"},
+  {"nombre": "E1048 001 57", "imagen": "../IMAGENES/FLEXON-MODELOS/E1048 001 57.webp", "stock": "1"},
+  {"nombre": "E1113 033 58", "imagen": "../IMAGENES/FLEXON-MODELOS/E1113 033 58.webp", "stock": "1"},
+  {"nombre": "E1121 412 55", "imagen": "../IMAGENES/FLEXON-MODELOS/E1121 412 55.webp", "stock": "1"},
+  {"nombre": "E1125 002 55", "imagen": "../IMAGENES/FLEXON-MODELOS/E1125 002 55.webp", "stock": "1"},
+  {"nombre": "EP8003 001 55", "imagen": "../IMAGENES/FLEXON-MODELOS/EP8003 001 55.webp", "stock": "1"},
+  {"nombre": "EP8004 001 55", "imagen": "../IMAGENES/FLEXON-MODELOS/EP8004 001 55.webp", "stock": "3"},
+  {"nombre": "FLB2031 001 57", "imagen": "../IMAGENES/FLEXON-MODELOS/FLB2031 001 57.webp", "stock": "1"},
+  {"nombre": "FLE1121 001 55", "imagen": "../IMAGENES/FLEXON-MODELOS/FLE1121 001 55.webp", "stock": "1"},
+  {"nombre": "FLE1136 001 55", "imagen": "../IMAGENES/FLEXON-MODELOS/FLE1136 001 55.webp", "stock": "1"},
+  {"nombre": "FLE1136 033 55", "imagen": "../IMAGENES/FLEXON-MODELOS/FLE1136 033 55.webp", "stock": "1"},
+  {"nombre": "H6013 210 56", "imagen": "../IMAGENES/FLEXON-MODELOS/H6013 210 56.webp", "stock": "1"},
+  {"nombre": "PURE AIRLOCK 2003 971 55", "imagen": "../IMAGENES/FLEXON-MODELOS/PURE AIRLOCK 2003 971 55.webp", "stock": "1"},
+  {"nombre": "W3020 210 52", "imagen": "../IMAGENES/FLEXON-MODELOS/W3020 210 52.webp", "stock": "1"},
+  {"nombre": "W3020 640 52", "imagen": "../IMAGENES/FLEXON-MODELOS/W3020 640 52.webp", "stock": "1"},
+  {"nombre": "W3021 210 50", "imagen": "../IMAGENES/FLEXON-MODELOS/W3021 210 50.webp", "stock": "2"},
+  {"nombre": "W3021 424 50", "imagen": "../IMAGENES/FLEXON-MODELOS/W3021 424 50.webp", "stock": "2"},
+  {"nombre": "W3023 210 52", "imagen": "../IMAGENES/FLEXON-MODELOS/W3023 210 52.webp", "stock": "4"},
+  {"nombre": "W3100 001 53", "imagen": "../IMAGENES/FLEXON-MODELOS/W3100 001 53.webp", "stock": "1"},
+  {"nombre": "W3100 325 53", "imagen": "../IMAGENES/FLEXON-MODELOS/W3100 325 53.webp", "stock": "3"},
+  {"nombre": "NIKE 4294 002 54", "imagen": "../IMAGENES/FLEXON-MODELOS/NIKE 4294 002 54.webp", "stock": "8"}
+]
+  ,
+ "forever-21": [
+  {"nombre": "F 2103-C1-53", "imagen": "../IMAGENES/forever 21/F 2103-C1-53.webp", "stock": "4"},
+  {"nombre": "F 2103-C2-53", "imagen": "../IMAGENES/forever 21/F 2103-C2-53.webp", "stock": "4"},
+  {"nombre": "F 2103-C3-53", "imagen": "../IMAGENES/forever 21/F 2103-C3-53.webp", "stock": "4"},
+  {"nombre": "F 2104-C1-54", "imagen": "../IMAGENES/forever 21/F 2104-C1-54.webp", "stock": "4"},
+  {"nombre": "F 2104-C2-54", "imagen": "../IMAGENES/forever 21/F 2104-C2-54.webp", "stock": "4"},
+  {"nombre": "F 2104-C3-54", "imagen": "../IMAGENES/forever 21/F 2104-C3-54.webp", "stock": "4"},
+  {"nombre": "F 2105-C1-51", "imagen": "../IMAGENES/forever 21/F 2105-C1-51.webp", "stock": "4"},
+  {"nombre": "F 2105-C2-51", "imagen": "../IMAGENES/forever 21/F 2105-C2-51.webp", "stock": "4"},
+  {"nombre": "F 2105-C3-51", "imagen": "../IMAGENES/forever 21/F 2105-C3-51.webp", "stock": "4"},
+  {"nombre": "F 2106-C1-56", "imagen": "../IMAGENES/forever 21/F 2106-C1-56.webp", "stock": "4"},
+  {"nombre": "F 2106-C2-56", "imagen": "../IMAGENES/forever 21/F 2106-C2-56.webp", "stock": "4"},
+  {"nombre": "F 2106-C3-56", "imagen": "../IMAGENES/forever 21/F 2106-C3-56.webp", "stock": "4"},
+  {"nombre": "F 2109-C1-54", "imagen": "../IMAGENES/forever 21/F 2109-C1-54.webp", "stock": "4"},
+  {"nombre": "F 2109-C2-54", "imagen": "../IMAGENES/forever 21/F 2109-C2-54.webp", "stock": "4"},
+  {"nombre": "F 2109-C3-54", "imagen": "../IMAGENES/forever 21/F 2109-C3-54.webp", "stock": "4"},
+  {"nombre": "F 2111-C1-56", "imagen": "../IMAGENES/forever 21/F 2111-C1-56.webp", "stock": "4"},
+  {"nombre": "F 2111-C2-56", "imagen": "../IMAGENES/forever 21/F 2111-C2-56.webp", "stock": "4"},
+  {"nombre": "F 2111-C3-56", "imagen": "../IMAGENES/forever 21/F 2111-C3-56.webp", "stock": "4"},
+  {"nombre": "F 2112-C1-56", "imagen": "../IMAGENES/forever 21/F 2112-C1-56.webp", "stock": "4"},
+  {"nombre": "F 2112-C2-56", "imagen": "../IMAGENES/forever 21/F 2112-C2-56.webp", "stock": "4"},
+  {"nombre": "F 2112-C3-56", "imagen": "../IMAGENES/forever 21/F 2112-C3-56.webp", "stock": "4"},
+  {"nombre": "F 2115-C1-53", "imagen": "../IMAGENES/forever 21/F 2115-C1-53.webp", "stock": "4"},
+  {"nombre": "F 2115-C2-53", "imagen": "../IMAGENES/forever 21/F 2115-C2-53.webp", "stock": "4"},
+  {"nombre": "F 2115-C3-53", "imagen": "../IMAGENES/forever 21/F 2115-C3-53.webp", "stock": "4"},
+  {"nombre": "F 2117-C1-53", "imagen": "../IMAGENES/forever 21/F 2117-C1-53.webp", "stock": "4"},
+  {"nombre": "F 2117-C2-53", "imagen": "../IMAGENES/forever 21/F 2117-C2-53.webp", "stock": "4"},
+  {"nombre": "F 2117-C3-53", "imagen": "../IMAGENES/forever 21/F 2117-C3-53.webp", "stock": "4"},
+  {"nombre": "F 2118-C1-54", "imagen": "../IMAGENES/forever 21/F 2118-C1-54.webp", "stock": "4"},
+  {"nombre": "F 2118-C2-54", "imagen": "../IMAGENES/forever 21/F 2118-C2-54.webp", "stock": "4"},
+  {"nombre": "F 2118-C3-54", "imagen": "../IMAGENES/forever 21/F 2118-C3-54.webp", "stock": "4"},
+  {"nombre": "F 2121-C1-53", "imagen": "../IMAGENES/forever 21/F 2121-C1-53.webp", "stock": "4"},
+  {"nombre": "F 2121-C2-53", "imagen": "../IMAGENES/forever 21/F 2121-C2-53.webp", "stock": "4"},
+  {"nombre": "F 2121-C3-53", "imagen": "../IMAGENES/forever 21/F 2121-C3-53.webp", "stock": "4"},
+  {"nombre": "F 2122-C1-52", "imagen": "../IMAGENES/forever 21/F 2122-C1-52.webp", "stock": "4"},
+  {"nombre": "F 2122-C2-52", "imagen": "../IMAGENES/forever 21/F 2122-C2-52.webp", "stock": "4"},
+  {"nombre": "F 2122-C3-52", "imagen": "../IMAGENES/forever 21/F 2122-C3-52.webp", "stock": "4"},
+  {"nombre": "F 2123-C1", "imagen": "../IMAGENES/forever 21/F 2123-C1.webp", "stock": "4"},
+  {"nombre": "F 2123-C2", "imagen": "../IMAGENES/forever 21/F 2123-C2.webp", "stock": "4"},
+  {"nombre": "F 2123-C3", "imagen": "../IMAGENES/forever 21/F 2123-C3.webp", "stock": "4"},
+  {"nombre": "F 2124-C1", "imagen": "../IMAGENES/forever 21/F 2124-C1.webp", "stock": "4"},
+  {"nombre": "F 2124-C2", "imagen": "../IMAGENES/forever 21/F 2124-C2.webp", "stock": "4"},
+  {"nombre": "F 2124-C3", "imagen": "../IMAGENES/forever 21/F 2124-C3.webp", "stock": "3"},
+  {"nombre": "F 2126-C1", "imagen": "../IMAGENES/forever 21/F 2126-C1.webp", "stock": "4"},
+  {"nombre": "F 2126-C2", "imagen": "../IMAGENES/forever 21/F 2126-C2.webp", "stock": "3"},
+  {"nombre": "F 2126-C3", "imagen": "../IMAGENES/forever 21/F 2126-C3.webp", "stock": "4"},
+  {"nombre": "F 2127-C1", "imagen": "../IMAGENES/forever 21/F 2127-C1.webp", "stock": "4"},
+  {"nombre": "F 2127-C2", "imagen": "../IMAGENES/forever 21/F 2127-C2.webp", "stock": "4"},
+  {"nombre": "F 2127-C3", "imagen": "../IMAGENES/forever 21/F 2127-C3.webp", "stock": "4"},
+  {"nombre": "F 2131-C1", "imagen": "../IMAGENES/forever 21/F 2131-C1.webp", "stock": "3"},
+  {"nombre": "F 2131-C2", "imagen": "../IMAGENES/forever 21/F 2131-C2.webp", "stock": "3"},
+  {"nombre": "F 2131-C3", "imagen": "../IMAGENES/forever 21/F 2131-C3.webp", "stock": "4"},
+  {"nombre": "F 2132-C1", "imagen": "../IMAGENES/forever 21/F 2132-C1.webp", "stock": "4"},
+  {"nombre": "F 2132-C2", "imagen": "../IMAGENES/forever 21/F 2132-C2.webp", "stock": "4"},
+  {"nombre": "F 2132-C3", "imagen": "../IMAGENES/forever 21/F 2132-C3.webp", "stock": "4"},
+  {"nombre": "F 2133-C1", "imagen": "../IMAGENES/forever 21/F 2133-C1.webp", "stock": "4"},
+  {"nombre": "F 2133-C2", "imagen": "../IMAGENES/forever 21/F 2133-C2.webp", "stock": "4"},
+  {"nombre": "F 2133-C3", "imagen": "../IMAGENES/forever 21/F 2133-C3.webp", "stock": "4"},
+  {"nombre": "F 2135-C1", "imagen": "../IMAGENES/forever 21/F 2135-C1.webp", "stock": "4"},
+  {"nombre": "F 2135-C2", "imagen": "../IMAGENES/forever 21/F 2135-C2.webp", "stock": "4"},
+  {"nombre": "F 2135-C3", "imagen": "../IMAGENES/forever 21/F 2135-C3.webp", "stock": "4"}
+],
+   "GAP": [
+  {"nombre": "VGP001 OLIVE 53", "imagen": "../IMAGENES/VGP/VGP001 OLIVE 53.webp", "stock": "1"},
+  {"nombre": "VGP004 GREY 56", "imagen": "../IMAGENES/VGP/VGP004 GREY 56.webp", "stock": "1"},
+  {"nombre": "VGP011 NAVY 53", "imagen": "../IMAGENES/VGP/VGP011 NAVY 53.webp", "stock": "1"},
+  {"nombre": "VGP013 RED 52", "imagen": "../IMAGENES/VGP/VGP013 RED 52.webp", "stock": "1"},
+  {"nombre": "VGP014 HAVANA 53", "imagen": "../IMAGENES/VGP/VGP014 HAVANA 53.webp", "stock": "1"},
+  {"nombre": "VGP016 NAVI GRAD 53", "imagen": "../IMAGENES/VGP/VGP016 NAVI GRAD 53.webp", "stock": "1"},
+  {"nombre": "VGP017 HAVANA 51", "imagen": "../IMAGENES/VGP/VGP017 HAVANA 51.webp", "stock": "1"},
+  {"nombre": "VGP020 0NAV NAVY 55", "imagen": "../IMAGENES/VGP/VGP020 0NAV NAVY 55.webp", "stock": "1"},
+  {"nombre": "VGP023 BLACK 52", "imagen": "../IMAGENES/VGP/VGP023 BLACK 52.webp", "stock": "1"},
+  {"nombre": "VGP036 BLUSH 55", "imagen": "../IMAGENES/VGP/VGP036 BLUSH 55.webp", "stock": "1"},
+  {"nombre": "VGP038 HAVANA 53", "imagen": "../IMAGENES/VGP/VGP038 HAVANA 53.webp", "stock": "1"},
+  {"nombre": "VGP042 BLACK 53", "imagen": "../IMAGENES/VGP/VGP042 BLACK 53.webp", "stock": "1"},
+  {"nombre": "VGP042 OLIVE 53", "imagen": "../IMAGENES/VGP/VGP042 OLIVE 53.webp", "stock": "1"},
+  {"nombre": "VGP045 PURPLE 54", "imagen": "../IMAGENES/VGP/VGP045 PURPLE 54.webp", "stock": "1"},
+  {"nombre": "VGP222 HAVAN 49", "imagen": "../IMAGENES/VGP/VGP222 HAVAN 49.webp", "stock": "1"},
+  {"nombre": "VGP214 BLACK 48", "imagen": "../IMAGENES/VGP/VGP214 BLACK 48.webp", "stock": "1"},
+  {"nombre": "VGP214 BLUE 48", "imagen": "../IMAGENES/VGP/VGP214 BLUE 48.webp", "stock": "1"}
+]
+  ,
+
+  "Guess": [
+  {"nombre": "GU1770-N BLK 54", "imagen": "../IMAGENES/Guess/GU1770-N BLK 54.webp", "stock": "1"},
+  {"nombre": "GU1770-N GUN 54", "imagen": "../IMAGENES/Guess/GU1770-N GUN 54.webp", "stock": "5"},
+  {"nombre": "GU1878-F 052 54", "imagen": "../IMAGENES/Guess/GU1878-F 052 54.webp", "stock": "1"},
+  {"nombre": "GU1928-N/V 091 55", "imagen": "../IMAGENES/Guess/GU1928-N V 091 55.webp", "stock": "0"},
+  {"nombre": "GU1937-D 092 54", "imagen": "../IMAGENES/Guess/GU1937-D 092 54.webp", "stock": "1"},
+  {"nombre": "GU1938-D 055 55", "imagen": "../IMAGENES/Guess/GU1938-D 055 55.webp", "stock": "1"},
+  {"nombre": "GU2538-F 052 55", "imagen": "../IMAGENES/Guess/GU2538-F 052 55.webp", "stock": "1"},
+  {"nombre": "GU2538 056 55", "imagen": "../IMAGENES/Guess/GU2538 056 55.webp", "stock": "1"},
+  {"nombre": "GU2599-D/V 069 54", "imagen": "../IMAGENES/Guess/GU2599-D V 069 54.webp", "stock": "1"},
+  {"nombre": "GU2632-S/V 069 52", "imagen": "../IMAGENES/Guess/GU2632-S V 069 52.webp", "stock": "1"},
+  {"nombre": "GU2699/V 071 54", "imagen": "../IMAGENES/Guess/GU2699 V 071 54.webp", "stock": "1"},
+  {"nombre": "GU2700/V 028 50", "imagen": "../IMAGENES/Guess/GU2700 V 028 50.webp", "stock": "1"},
+  {"nombre": "GU2723/V 083 54", "imagen": "../IMAGENES/Guess/GU2723 V 083 54.webp", "stock": "2"},
+  {"nombre": "GU2755/V 082 55", "imagen": "../IMAGENES/Guess/GU2755 V 082 55.webp", "stock": "1"},
+  {"nombre": "GU2760/V 032 57", "imagen": "../IMAGENES/Guess/GU2760 V 032 57.webp", "stock": "5"},
+  {"nombre": "GU2779/V 028 55", "imagen": "../IMAGENES/Guess/GU2779 V 028 55.webp", "stock": "5"},
+  {"nombre": "GU2787 091 54", "imagen": "../IMAGENES/Guess/GU2787 091 54.webp", "stock": "1"},
+  {"nombre": "GU2787 082 52", "imagen": "../IMAGENES/Guess/GU2787 082 52.webp", "stock": "1"},
+  {"nombre": "GU2793/O 032 53", "imagen": "../IMAGENES/Guess/GU2793 O 032 53.webp", "stock": "4"},
+  {"nombre": "GU2795/V 072 54", "imagen": "../IMAGENES/Guess/GU2795 V 072 54.webp", "stock": "3"},
+  {"nombre": "GU2598-D/V 056 53", "imagen": "../IMAGENES/Guess/GU2598-D V 056 53.webp", "stock": "1"},
+  {"nombre": "GU2810/V 083 54", "imagen": "../IMAGENES/Guess/GU2810 V 083 54.webp", "stock": "1"},
+  {"nombre": "GU2847 001 54", "imagen": "../IMAGENES/Guess/GU2847 001 54.webp", "stock": "1"},
+  {"nombre": "GU2847 020 56", "imagen": "../IMAGENES/Guess/GU2847 020 56.webp", "stock": "1"},
+  {"nombre": "GU2852 005 55", "imagen": "../IMAGENES/Guess/GU2852 005 55.webp", "stock": "1"},
+  {"nombre": "GU2852 086 55", "imagen": "../IMAGENES/Guess/GU2852 086 55.webp", "stock": "3"},
+  {"nombre": "GU2855-S 053 54", "imagen": "../IMAGENES/Guess/GU2855-S 053 54.webp", "stock": "5"},
+  {"nombre": "GU2856-S 053 53", "imagen": "../IMAGENES/Guess/GU2856-S 053 53.webp", "stock": "5"},
+  {"nombre": "GU2856-S/O 074 55", "imagen": "../IMAGENES/Guess/GU2856-S 074 55.webp", "stock": "3"},
+  {"nombre": "GU2856-S/O 074 53", "imagen": "../IMAGENES/Guess/GU2856-S O 074 53.webp", "stock": "4"},
+  {"nombre": "GU2872 090 54", "imagen": "../IMAGENES/Guess/GU2872 090 54.webp", "stock": "2"},
+  {"nombre": "GU2875 074 55", "imagen": "../IMAGENES/Guess/GU2875 074 55.webp", "stock": "1"},
+  {"nombre": "GU2880 020 49", "imagen": "../IMAGENES/Guess/GU2880 020 49.webp", "stock": "1"},
+  {"nombre": "GU2885 053 52", "imagen": "../IMAGENES/Guess/GU2885 053 52.webp", "stock": "7"},
+  {"nombre": "GU2903 033 52", "imagen": "../IMAGENES/Guess/GU2903 033 52.webp", "stock": "1"},
+  {"nombre": "GU2905 092 55", "imagen": "../IMAGENES/Guess/GU2905 092 55.webp", "stock": "5"},
+  {"nombre": "GU2909/V 092 52", "imagen": "../IMAGENES/Guess/GU2909 V 092 52.webp", "stock": "2"},
+  {"nombre": "GU2909 083 53", "imagen": "../IMAGENES/Guess/GU2909 083 53.webp", "stock": "1"},
+  {"nombre": "GU2911 001 57", "imagen": "../IMAGENES/Guess/GU2911 001 57.webp", "stock": "1"},
+  {"nombre": "GU2911 052 57", "imagen": "../IMAGENES/Guess/GU2911 052 57.webp", "stock": "1"},
+  {"nombre": "GU2911 078 57", "imagen": "../IMAGENES/Guess/GU2911 078 57.webp", "stock": "1"},
+  {"nombre": "GU2928 057 55", "imagen": "../IMAGENES/Guess/GU2928 057 55.webp", "stock": "1"},
+  {"nombre": "GU2937-N 005 52", "imagen": "../IMAGENES/Guess/GU2937-N 005 52.webp", "stock": "4"},
+  {"nombre": "GU2937-N 052 52", "imagen": "../IMAGENES/Guess/GU2937-N 052 52.webp", "stock": "4"},
+  {"nombre": "GU2937-N 052 54", "imagen": "../IMAGENES/Guess/GU2937-N 052 54.webp", "stock": "2"},
+  {"nombre": "GU2937 020 54", "imagen": "../IMAGENES/Guess/GU2937 020 54.webp", "stock": "1"},
+  {"nombre": "GU2937-N 083 52", "imagen": "../IMAGENES/Guess/GU2937-N 083 52.webp", "stock": "1"},
+  {"nombre": "GU2937-N 092 54", "imagen": "../IMAGENES/Guess/GU2937-N 092 54.webp", "stock": "1"},
+  {"nombre": "GU2943 057 54", "imagen": "../IMAGENES/Guess/GU2943 057 54.webp", "stock": "1"},
+  {"nombre": "GU2949-N 074 53", "imagen": "../IMAGENES/Guess/GU2949-N 074 53.webp", "stock": "1"},
+  {"nombre": "GU2973 083 55", "imagen": "../IMAGENES/Guess/GU2973 083 55.webp", "stock": "3"},
+  {"nombre": "GU2980 071 50", "imagen": "../IMAGENES/Guess/GU2980 071 50.webp", "stock": "1"},
+  {"nombre": "GU2980 092 53", "imagen": "../IMAGENES/Guess/GU2980 092 53.webp", "stock": "1"},
+  {"nombre": "GU2984 005 54", "imagen": "../IMAGENES/Guess/GU2984 005 54.webp", "stock": "3"},
+  {"nombre": "GU2984 020 54", "imagen": "../IMAGENES/Guess/GU2984 020 54.webp", "stock": "3"},
+  {"nombre": "GU2984 050 54", "imagen": "../IMAGENES/Guess/GU2984 050 54.webp", "stock": "3"},
+  {"nombre": "GU2984 071 54", "imagen": "../IMAGENES/Guess/GU2984 071 54.webp", "stock": "8"},
+  {"nombre": "GU2985 001 54", "imagen": "../IMAGENES/Guess/GU2985 001 54.webp", "stock": "13"},
+  {"nombre": "GU2985 052 54", "imagen": "../IMAGENES/Guess/GU2985 052 54.webp", "stock": "1"},
+  {"nombre": "GU2987 041 54", "imagen": "../IMAGENES/Guess/GU2987 041 54.webp", "stock": "1"},
+  {"nombre": "GU2992-D 001 54", "imagen": "../IMAGENES/Guess/GU2992-D 001 54.webp", "stock": "1"},
+  {"nombre": "GU2992-D 052 54", "imagen": "../IMAGENES/Guess/GU2992-D 052 54.webp", "stock": "2"},
+  {"nombre": "GU50017 002 56", "imagen": "../IMAGENES/Guess/GU50017 002 56.webp", "stock": "0"},
+  {"nombre": "GU50018 001 52", "imagen": "../IMAGENES/Guess/GU50018 001 52.webp", "stock": "1"},
+  {"nombre": "GU50059 052 53", "imagen": "../IMAGENES/Guess/GU50059 052 53.webp", "stock": "6"},
+  {"nombre": "GU50062 001 54", "imagen": "../IMAGENES/Guess/GU50062 001 54.webp", "stock": "1"},
+  {"nombre": "GU50062 020 54", "imagen": "../IMAGENES/Guess/GU50062 020 54.webp", "stock": "4"},
+  {"nombre": "GU50062 052 52", "imagen": "../IMAGENES/Guess/GU50062 052 52.webp", "stock": "1"},
+  {"nombre": "GU50063 005 54", "imagen": "../IMAGENES/Guess/GU50063 005 54.webp", "stock": "1"},
+  {"nombre": "GU50063 056 54", "imagen": "../IMAGENES/Guess/GU50063 056 54.webp", "stock": "2"},
+  {"nombre": "GU50068 052 52", "imagen": "../IMAGENES/Guess/GU50068 052 52.webp", "stock": "1"},
+  {"nombre": "GU50068 056 54", "imagen": "../IMAGENES/Guess/GU50068 056 54.webp", "stock": "1"},
+  {"nombre": "GU50068 092 52", "imagen": "../IMAGENES/Guess/GU50068 092 52.webp", "stock": "1"},
+  {"nombre": "GU50073 002 54", "imagen": "../IMAGENES/Guess/GU50073 002 54.webp", "stock": "1"},
+  {"nombre": "GU50073 020 54", "imagen": "../IMAGENES/Guess/GU50073 020 54.webp", "stock": "1"},
+  {"nombre": "GU50077-D 052 55", "imagen": "../IMAGENES/Guess/GU50077-D 052 55.webp", "stock": "1"},
+  {"nombre": "GU50088 005 54", "imagen": "../IMAGENES/Guess/GU50088 005 54.webp", "stock": "1"},
+  {"nombre": "GU50088-D 052 54", "imagen": "../IMAGENES/Guess/GU50088-D 052 54.webp", "stock": "1"},
+  {"nombre": "GU50089 044 56", "imagen": "../IMAGENES/Guess/GU50089 044 56.webp", "stock": "2"},
+  {"nombre": "GU50090 020 56", "imagen": "../IMAGENES/Guess/GU50090 020 56.webp", "stock": "5"},
+  {"nombre": "GU50090 092 56", "imagen": "../IMAGENES/Guess/GU50090 092 56.webp", "stock": "2"},
+  {"nombre": "GU50114 053 53", "imagen": "../IMAGENES/Guess/GU50114 053 53.webp", "stock": "2"},
+  {"nombre": "GU50114 001 51", "imagen": "../IMAGENES/Guess/GU50114 001 51.webp", "stock": "2"},
+  {"nombre": "GU50130 052 57", "imagen": "../IMAGENES/Guess/GU50130 052 57.webp", "stock": "2"},
+  {"nombre": "GU50133 001 53", "imagen": "../IMAGENES/Guess/GU50133 001 53.webp", "stock": "2"},
+  {"nombre": "GU50133 053 55", "imagen": "../IMAGENES/Guess/GU50133 053 55.webp", "stock": "6"},
+  {"nombre": "GU50153 001 53", "imagen": "../IMAGENES/Guess/GU50153 001 53.webp", "stock": "2"},
+  {"nombre": "GU50153-D 052 53", "imagen": "../IMAGENES/Guess/GU50153-D 052 53.webp", "stock": "4"},
+  {"nombre": "GU5219 092 54", "imagen": "../IMAGENES/Guess/GU5219 092 54.webp", "stock": "2"},
+  {"nombre": "GU5220 066 51", "imagen": "../IMAGENES/Guess/GU5220 066 51.webp", "stock": "2"},
+  {"nombre": "GU5220 092 51", "imagen": "../IMAGENES/Guess/GU5220 092 51.webp", "stock": "2"},
+  {"nombre": "GU5223 052 54", "imagen": "../IMAGENES/Guess/GU5223 052 54.webp", "stock": "2"},
+  {"nombre": "GU8248 093 51", "imagen": "../IMAGENES/Guess/GU8248 093 51.webp", "stock": "6"},
+  {"nombre": "GU2926/V 089 53", "imagen": "../IMAGENES/Guess/GU2926 V 089 53.webp", "stock": "3"},
+  {"nombre": "GU2689-D 001 51", "imagen": "../IMAGENES/Guess/GU2689-D 001 51.webp", "stock": "3"},
+  {"nombre": "GU2717 090 51", "imagen": "../IMAGENES/Guess/GU2717 090 51.webp", "stock": "4"},
+  {"nombre": "GU2748/V 052 53", "imagen": "../IMAGENES/Guess/GU2748 V 052 53.webp", "stock": "4"},
+  {"nombre": "GU2755/V 082 53", "imagen": "../IMAGENES/Guess/GU2755 V 082 53.webp", "stock": "6"},
+  {"nombre": "GU2909/V 092 53", "imagen": "../IMAGENES/Guess/GU2909 V 092 53.webp", "stock": "4"},
+  {"nombre": "GU2941/V 052 51", "imagen": "../IMAGENES/Guess/GU2941 V 052 51.webp", "stock": "4"},
+  {"nombre": "GU2949-N/V 089 53", "imagen": "../IMAGENES/Guess/GU2949-N V 089 53.webp", "stock": "6"},
+  {"nombre": "GU2953/V 032 53", "imagen": "../IMAGENES/Guess/GU2953 V 032 53.webp", "stock": "3"},
+  {"nombre": "GU2980/V 071 50", "imagen": "../IMAGENES/Guess/GU2980 V 071 50.webp", "stock": "1"},
+  {"nombre": "GU8252/V 052 57", "imagen": "../IMAGENES/Guess/GU8252 V 052 57.webp", "stock": "3"},
+  {"nombre": "GU50048/ V 053 52", "imagen": "../IMAGENES/Guess/GU50048 V 053 52.webp", "stock": "3"},
+  {"nombre": "GU50095/V 091 53", "imagen": "../IMAGENES/Guess/GU50095 V 091 53.webp", "stock": "3"},
+  {"nombre": "GU50048/V 020 54", "imagen": "../IMAGENES/Guess/GU50048 V 020 54.webp", "stock": "4"}
     ]
   ,
-  
-    "flexon": [
-      {
-        "nombre": "B2001 412 56",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2001 412 56.webp"
-      },
-      {
-        "nombre": "B2005 001 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2005 001 55.webp"
-      },
-      {
-        "nombre": "B2005 033 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2005 033 55.webp"
-      },
-      {
-        "nombre": "B2024 221 50",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2024 221 50.webp"
-      },
-      {
-        "nombre": "B2025 001 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2025 001 55.webp"
-      },
-      {
-        "nombre": "B2025 412 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2025 412 55.webp"
-      },
-      {
-        "nombre": "B2027 233 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2027 233 55.webp"
-      },
-      {
-        "nombre": "B2037 002 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2037 002 55.webp"
-      },
-      {
-        "nombre": "B2076 412 56",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2076 412 56.webp"
-      },
-      {
-        "nombre": "B2077 033 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/B2077 033 55.webp"
-      },
-      {
-        "nombre": "E1048 001 57",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/E1048 001 57.webp"
-      },
-      {
-        "nombre": "E1113 033 58",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/E1113 033 58.webp"
-      },
-      {
-        "nombre": "E1121 412 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/E1121 412 55.webp"
-      },
-      {
-        "nombre": "E1125 002 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/E1125 002 55.webp"
-      },
-      {
-        "nombre": "EP8003 001 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/EP8003 001 55.webp"
-      },
-      {
-        "nombre": "EP8004 001 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/EP8004 001 55.webp"
-      },
-      {
-        "nombre": "FLB2031 001 57",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/FLB2031 001 57.webp"
-      },
-      {
-        "nombre": "FLE1121 001 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/FLE1121 001 55.webp"
-      },
-      {
-        "nombre": "FLE1136 001 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/FLE1136 001 55.webp"
-      },
-      {
-        "nombre": "FLE1136 033 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/FLE1136 033 55.webp"
-      },
-      {
-        "nombre": "H6013 210 56",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/H6013 210 56.webp"
-      },
-      {
-        "nombre": "PURE AIRLOCK 2003 971 55",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/PURE AIRLOCK 2003 971 55.webp"
-      },
-      {
-        "nombre": "W3020 210 52",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/W3020 210 52.webp"
-      },
-      {
-        "nombre": "W3020 640 52",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/W3020 640 52.webp"
-      },
-      {
-        "nombre": "W3021 210 50",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/W3021 210 50.webp"
-      },
-      {
-        "nombre": "W3021 424 50",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/W3021 424 50.webp"
-      },
-      {
-        "nombre": "W3023 210 52",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/W3023 210 52.webp"
-      },
-      {
-        "nombre": "W3100 001 53",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/W3100 001 53.webp"
-      },
-      {
-        "nombre": "W3100 325 53",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/W3100 325 53.webp"
-      },
-      {
-        "nombre": "NIKE 4294 002 54",
-        "imagen": "../IMAGENES/FLEXON-MODELOS/NIKE 4294 002 54.webp"
-      }
-    ]
+     "GUESS-MARCIANO": [
+  {
+    "nombre": "GM0331 056 53",
+    "imagen": "../IMAGENES/GM/GM0331 056 53.webp",
+    "stock": "2"
+  },
+  {
+    "nombre": "GM0299-3 054 53",
+    "imagen": "../IMAGENES/GM/GM0299-3 054 53.webp",
+    "stock": "2"
+  },
+  {
+    "nombre": "GM0363 092 51",
+    "imagen": "../IMAGENES/GM/GM0363 092 51.webp",
+    "stock": "2"
+  },
+  {
+    "nombre": "GM0340 054 53",
+    "imagen": "../IMAGENES/GM/GM0340 054 53.webp",
+    "stock": "2"
+  },
+  {
+    "nombre": "GM0372 069 58",
+    "imagen": "../IMAGENES/GM/GM0372 069 58.webp",
+    "stock": "2"
+  },
+  {
+    "nombre": "GM0372 032 58",
+    "imagen": "../IMAGENES/GM/GM0372 032 58.webp",
+    "stock": "2"
+  }
+]
   ,
-  "forever-21": [
-    { "nombre": "F 2103-C1-53", "imagen": "../IMAGENES/forever 21/F 2103-C1-53.webp" },
-    { "nombre": "F 2103-C2-53", "imagen": "../IMAGENES/forever 21/F 2103-C2-53.webp" },
-    { "nombre": "F 2103-C3-53", "imagen": "../IMAGENES/forever 21/F 2103-C3-53.webp" },
-    { "nombre": "F 2104-C1-54", "imagen": "../IMAGENES/forever 21/F 2104-C1-54.webp" },
-    { "nombre": "F 2104-C2-54", "imagen": "../IMAGENES/forever 21/F 2104-C2-54.webp" },
-    { "nombre": "F 2104-C3-54", "imagen": "../IMAGENES/forever 21/F 2104-C3-54.webp" },
-    { "nombre": "F 2105-C1-51", "imagen": "../IMAGENES/forever 21/F 2105-C1-51.webp" },
-    { "nombre": "F 2105-C2-51", "imagen": "../IMAGENES/forever 21/F 2105-C2-51.webp" },
-    { "nombre": "F 2105-C3-51", "imagen": "../IMAGENES/forever 21/F 2105-C3-51.webp" },
-    { "nombre": "F 2106-C1-56", "imagen": "../IMAGENES/forever 21/F 2106-C1-56.webp" },
-    { "nombre": "F 2106-C2-56", "imagen": "../IMAGENES/forever 21/F 2106-C2-56.webp" },
-    { "nombre": "F 2106-C3-56", "imagen": "../IMAGENES/forever 21/F 2106-C3-56.webp" },
-    { "nombre": "F 2109-C1-54", "imagen": "../IMAGENES/forever 21/F 2109-C1-54.webp" },
-    { "nombre": "F 2109-C2-54", "imagen": "../IMAGENES/forever 21/F 2109-C2-54.webp" },
-    { "nombre": "F 2109-C3-54", "imagen": "../IMAGENES/forever 21/F 2109-C3-54.webp" },
-    { "nombre": "F 2111-C1-56", "imagen": "../IMAGENES/forever 21/F 2111-C1-56.webp" },
-    { "nombre": "F 2111-C2-56", "imagen": "../IMAGENES/forever 21/F 2111-C2-56.webp" },
-    { "nombre": "F 2111-C3-56", "imagen": "../IMAGENES/forever 21/F 2111-C3-56.webp" },
-    { "nombre": "F 2112-C1-56", "imagen": "../IMAGENES/forever 21/F 2112-C1-56.webp" },
-    { "nombre": "F 2112-C2-56", "imagen": "../IMAGENES/forever 21/F 2112-C2-56.webp" },
-    { "nombre": "F 2112-C3-56", "imagen": "../IMAGENES/forever 21/F 2112-C3-56.webp" },
-    { "nombre": "F 2115-C1-53", "imagen": "../IMAGENES/forever 21/F 2115-C1-53.webp" },
-    { "nombre": "F 2115-C2-53", "imagen": "../IMAGENES/forever 21/F 2115-C2-53.webp" },
-    { "nombre": "F 2115-C3-53", "imagen": "../IMAGENES/forever 21/F 2115-C3-53.webp" },
-    { "nombre": "F 2117-C1-53", "imagen": "../IMAGENES/forever 21/F 2117-C1-53.webp" },
-    { "nombre": "F 2117-C2-53", "imagen": "../IMAGENES/forever 21/F 2117-C2-53.webp" },
-    { "nombre": "F 2117-C3-53", "imagen": "../IMAGENES/forever 21/F 2117-C3-53.webp" },
-    { "nombre": "F 2118-C1-54", "imagen": "../IMAGENES/forever 21/F 2118-C1-54.webp" },
-    { "nombre": "F 2118-C2-54", "imagen": "../IMAGENES/forever 21/F 2118-C2-54.webp" },
-    { "nombre": "F 2118-C3-54", "imagen": "../IMAGENES/forever 21/F 2118-C3-54.webp" },
-    { "nombre": "F 2121-C1-53", "imagen": "../IMAGENES/forever 21/F 2121-C1-53.webp" },
-    { "nombre": "F 2121-C2-53", "imagen": "../IMAGENES/forever 21/F 2121-C2-53.webp" },
-    { "nombre": "F 2121-C3-53", "imagen": "../IMAGENES/forever 21/F 2121-C3-53.webp" },
-    { "nombre": "F 2122-C1-52", "imagen": "../IMAGENES/forever 21/F 2122-C1-52.webp" },
-    { "nombre": "F 2122-C2-52", "imagen": "../IMAGENES/forever 21/F 2122-C2-52.webp" },
-    { "nombre": "F 2122-C3-52", "imagen": "../IMAGENES/forever 21/F 2122-C3-52.webp" },
-    { "nombre": "F 2123-C1", "imagen": "../IMAGENES/forever 21/F 2123-C1.webp" },
-    { "nombre": "F 2123-C2", "imagen": "../IMAGENES/forever 21/F 2123-C2.webp" },
-    { "nombre": "F 2123-C3", "imagen": "../IMAGENES/forever 21/F 2123-C3.webp" },
-    { "nombre": "F 2124-C1", "imagen": "../IMAGENES/forever 21/F 2124-C1.webp" },
-    { "nombre": "F 2124-C2", "imagen": "../IMAGENES/forever 21/F 2124-C2.webp" },
-    { "nombre": "F 2124-C3", "imagen": "../IMAGENES/forever 21/F 2124-C3.webp" },
-    { "nombre": "F 2126-C1", "imagen": "../IMAGENES/forever 21/F 2126-C1.webp" },
-    { "nombre": "F 2126-C2", "imagen": "../IMAGENES/forever 21/F 2126-C2.webp" },
-    { "nombre": "F 2126-C3", "imagen": "../IMAGENES/forever 21/F 2126-C3.webp" },
-    { "nombre": "F 2127-C1", "imagen": "../IMAGENES/forever 21/F 2127-C1.webp" },
-    { "nombre": "F 2127-C2", "imagen": "../IMAGENES/forever 21/F 2127-C2.webp" },
-    { "nombre": "F 2127-C3", "imagen": "../IMAGENES/forever 21/F 2127-C3.webp" },
-    { "nombre": "F 2131-C1", "imagen": "../IMAGENES/forever 21/F 2131-C1.webp" },
-    { "nombre": "F 2131-C2", "imagen": "../IMAGENES/forever 21/F 2131-C2.webp" },
-    { "nombre": "F 2131-C3", "imagen": "../IMAGENES/forever 21/F 2131-C3.webp" },
-    { "nombre": "F 2132-C1", "imagen": "../IMAGENES/forever 21/F 2132-C1.webp" },
-    { "nombre": "F 2132-C2", "imagen": "../IMAGENES/forever 21/F 2132-C2.webp" },
-    { "nombre": "F 2132-C3", "imagen": "../IMAGENES/forever 21/F 2132-C3.webp" },
-    { "nombre": "F 2133-C1", "imagen": "../IMAGENES/forever 21/F 2133-C1.webp" },
-    { "nombre": "F 2133-C2", "imagen": "../IMAGENES/forever 21/F 2133-C2.webp" },
-    { "nombre": "F 2133-C3", "imagen": "../IMAGENES/forever 21/F 2133-C3.webp" },
-    { "nombre": "F 2135-C1", "imagen": "../IMAGENES/forever 21/F 2135-C1.webp" },
-    { "nombre": "F 2135-C2", "imagen": "../IMAGENES/forever 21/F 2135-C2.webp" },
-    { "nombre": "F 2135-C3", "imagen": "../IMAGENES/forever 21/F 2135-C3.webp" }
-  ],
-    "GAP": [
-      {
-        "nombre": "VGP001 OLIVE 53",
-        "imagen": "../IMAGENES/VGP/VGP001 OLIVE 53.webp"
-      },
-      {
-        "nombre": "VGP004 GREY 56",
-        "imagen": "../IMAGENES/VGP/VGP004 GREY 56.webp"
-      },
-      {
-        "nombre": "VGP011 NAVY 53",
-        "imagen": "../IMAGENES/VGP/VGP011 NAVY 53.webp"
-      },
-      {
-        "nombre": "VGP013 RED 52",
-        "imagen": "../IMAGENES/VGP/VGP013 RED 52.webp"
-      },
-      {
-        "nombre": "VGP014 HAVANA 53",
-        "imagen": "../IMAGENES/VGP/VGP014 HAVANA 53.webp"
-      },
-      {
-        "nombre": "VGP016 NAVI GRAD 53",
-        "imagen": "../IMAGENES/VGP/VGP016 NAVI GRAD 53.webp"
-      },
-      {
-        "nombre": "VGP017 HAVANA 51",
-        "imagen": "../IMAGENES/VGP/VGP017 HAVANA 51.webp"
-      },
-      {
-        "nombre": "VGP020 0NAV NAVY 55",
-        "imagen": "../IMAGENES/VGP/VGP020 0NAV NAVY 55.webp"
-      },
-      {
-        "nombre": "VGP023 BLACK 52",
-        "imagen": "../IMAGENES/VGP/VGP023 BLACK 52.webp"
-      },
-      {
-        "nombre": "VGP036 BLUSH 55",
-        "imagen": "../IMAGENES/VGP/VGP036 BLUSH 55.webp"
-      },
-      {
-        "nombre": "VGP038 HAVANA 53",
-        "imagen": "../IMAGENES/VGP/VGP038 HAVANA 53.webp"
-      },
-      {
-        "nombre": "VGP042 BLACK 53",
-        "imagen": "../IMAGENES/VGP/VGP042 BLACK 53.webp"
-      },
-      {
-        "nombre": "VGP042 OLIVE 53",
-        "imagen": "../IMAGENES/VGP/VGP042 OLIVE 53.webp"
-      },
-      {
-        "nombre": "VGP045 PURPLE 54",
-        "imagen": "../IMAGENES/VGP/VGP045 PURPLE 54.webp"
-      },
-      {
-        "nombre": "VGP222 HAVAN 49",
-        "imagen": "../IMAGENES/VGP/VGP222 HAVAN 49.webp"
-      },
-      {
-        "nombre": "VGP214 BLACK 48",
-        "imagen": "../IMAGENES/VGP/VGP214 BLACK 48.webp"
-      },
-      {
-        "nombre": "VGP214 BLUE 48",
-        "imagen": "../IMAGENES/VGP/VGP214 BLUE 48.webp"
-      }
-    ]
-  ,
-    "GUESS":[
-        { "nombre": "GU1770-N BLK 54", "imagen": "../IMAGENES/GUESS/GU1770-N BLK 54.webp" },
-        { "nombre": "GU1770-N GUN 54", "imagen": "../IMAGENES/GUESS/GU1770-N GUN 54.webp" },
-        { "nombre": "GU1878-F 052 54", "imagen": "../IMAGENES/GUESS/GU1878-F 052 54.webp" },
-        { "nombre": "GU1928-N/V 091 55", "imagen": "../IMAGENES/GUESS/GU1928-NV 091 55.webp" },
-        { "nombre": "GU1937-D 092 54", "imagen": "../IMAGENES/GUESS/GU1937-D 092 54.webp" },
-        { "nombre": "GU1938-D 055 55", "imagen": "../IMAGENES/GUESS/GU1938-D 055 55.webp" },
-        { "nombre": "GU2538-F 052 55", "imagen": "../IMAGENES/GUESS/GU2538-F 052 55.webp" },
-        { "nombre": "GU2538 056 55", "imagen": "../IMAGENES/GUESS/GU2538 056 55.webp" },
-        { "nombre": "GU2599-D/V 069 54", "imagen": "../IMAGENES/GUESS/GU2599-DV 069 54.webp" },
-        { "nombre": "GU2632-S/V 069 52", "imagen": "../IMAGENES/GUESS/GU2632-SV 069 52.webp" },
-        { "nombre": "GU2699/V 071 54", "imagen": "../IMAGENES/GUESS/GU2699V 071 54.webp" },
-        { "nombre": "GU2700/V 028 50", "imagen": "../IMAGENES/GUESS/GU2700V 028 50.webp" },
-        { "nombre": "GU2723/V 083 54", "imagen": "../IMAGENES/GUESS/GU2723V 083 54.webp" },
-        { "nombre": "GU2755/V 082 55", "imagen": "../IMAGENES/GUESS/GU2755V 082 55.webp" },
-        { "nombre": "GU2760/V 032 57", "imagen": "../IMAGENES/GUESS/GU2760V 032 57.webp" },
-        { "nombre": "GU2779/V 028 55", "imagen": "../IMAGENES/GUESS/GU2779V 028 55.webp" },
-        { "nombre": "GU2787 091 54", "imagen": "../IMAGENES/GUESS/GU2787 091 54.webp" },
-        { "nombre": "GU2787 082 52", "imagen": "../IMAGENES/GUESS/GU2787 082 52.webp" },
-        { "nombre": "GU2793/O 032 53", "imagen": "../IMAGENES/GUESS/GU2793O 032 53.webp" },
-        { "nombre": "GU2795/V 072 54", "imagen": "../IMAGENES/GUESS/GU2795V 072 54.webp" },
-        { "nombre": "GU2598-D/V 056 53", "imagen": "../IMAGENES/GUESS/GU2598-DV 056 53.webp" },
-        { "nombre": "GU2810/V 083 54", "imagen": "../IMAGENES/GUESS/GU2810V 083 54.webp" },
-        { "nombre": "GU2847 001 54", "imagen": "../IMAGENES/GUESS/GU2847 001 54.webp" },
-        { "nombre": "GU2847 020 56", "imagen": "../IMAGENES/GUESS/GU2847 020 56.webp" },
-        { "nombre": "GU2852 005 55", "imagen": "../IMAGENES/GUESS/GU2852 005 55.webp" },
-        { "nombre": "GU2852 086 55", "imagen": "../IMAGENES/GUESS/GU2852 086 55.webp" },
-        { "nombre": "GU2855-S 053 54", "imagen": "../IMAGENES/GUESS/GU2855-S 053 54.webp" },
-        { "nombre": "GU2856-S 053 53", "imagen": "../IMAGENES/GUESS/GU2856-S 053 53.webp" },
-        { "nombre": "GU2856-S/O 074 55", "imagen": "../IMAGENES/GUESS/GU2856-SO 074 55.webp" },
-        { "nombre": "GU2856-S/O 074 53", "imagen": "../IMAGENES/GUESS/GU2856-SO 074 53.webp" },
-        { "nombre": "GU2872 090 54", "imagen": "../IMAGENES/GUESS/GU2872 090 54.webp" },
-        { "nombre": "GU2875 074 55", "imagen": "../IMAGENES/GUESS/GU2875 074 55.webp" },
-        { "nombre": "GU2880 020 49", "imagen": "../IMAGENES/GUESS/GU2880 020 49.webp" },
-        { "nombre": "GU2885 053 52", "imagen": "../IMAGENES/GUESS/GU2885 053 52.webp" },
-        { "nombre": "GU2903 033 52", "imagen": "../IMAGENES/GUESS/GU2903 033 52.webp" },
-        { "nombre": "GU2905 092 55", "imagen": "../IMAGENES/GUESS/GU2905 092 55.webp" },
-        { "nombre": "GU2909/V 092 52", "imagen": "../IMAGENES/GUESS/GU2909V 092 52.webp" },
-        { "nombre": "GU2909 083 53", "imagen": "../IMAGENES/GUESS/GU2909 083 53.webp" },
-        { "nombre": "GU2911 001 57", "imagen": "../IMAGENES/GUESS/GU2911 001 57.webp" },
-        { "nombre": "GU2911 052 57", "imagen": "../IMAGENES/GUESS/GU2911 052 57.webp" },
-        { "nombre": "GU2911 078 57", "imagen": "../IMAGENES/GUESS/GU2911 078 57.webp" },
-        { "nombre": "GU2928 057 55", "imagen": "../IMAGENES/GUESS/GU2928 057 55.webp" },
-        { "nombre": "GU2937-N 005 52", "imagen": "../IMAGENES/GUESS/GU2937-N 005 52.webp" },
-        { "nombre": "GU2937-N 052 52", "imagen": "../IMAGENES/GUESS/GU2937-N 052 52.webp" },
-        { "nombre": "GU2937 020 54", "imagen": "../IMAGENES/GUESS/GU2937 020 54.webp" },
-        { "nombre": "GU2937-N 083 52", "imagen": "../IMAGENES/GUESS/GU2937-N 083 52.webp" },
-        { "nombre": "GU2937-N 092 54", "imagen": "../IMAGENES/GUESS/GU2937-N 092 54.webp" },
-        { "nombre": "GU2943 057 54", "imagen": "../IMAGENES/GUESS/GU2943 057 54.webp" },
-        { "nombre": "GU2949-N 074 53", "imagen": "../IMAGENES/GUESS/GU2949-N 074 53.webp" },
-        { "nombre": "GU2973 083 55", "imagen": "../IMAGENES/GUESS/GU2973 083 55.webp" },
-        { "nombre": "GU2980 071 50", "imagen": "../IMAGENES/GUESS/GU2980 071 50.webp" },
-        { "nombre": "GU2980 092 53", "imagen": "../IMAGENES/GUESS/GU2980 092 53.webp" },
-        { "nombre": "GU2984 005 54", "imagen": "../IMAGENES/GUESS/GU2984 005 54.webp" },
-        { "nombre": "GU2984 020 54", "imagen": "../IMAGENES/GUESS/GU2984 020 54.webp" },
-        { "nombre": "GU2984 050 54", "imagen": "../IMAGENES/GUESS/GU2984 050 54.webp" },
-        { "nombre": "GU2984 071 54", "imagen": "../IMAGENES/GUESS/GU2984 071 54.webp" },
-        { "nombre": "GU2985 001 54", "imagen": "../IMAGENES/GUESS/GU2985 001 54.webp" },
-        { "nombre": "GU2985 052 54", "imagen": "../IMAGENES/GUESS/GU2985 052 54.webp" },
-        { "nombre": "GU2987 041 54", "imagen": "../IMAGENES/GUESS/GU2987 041 54.webp" },
-        { "nombre": "GU2992-D 001 54", "imagen": "../IMAGENES/GUESS/GU2992-D 001 54.webp" },
-        { "nombre": "GU2992-D 052 54", "imagen": "../IMAGENES/GUESS/GU2992-D 052 54.webp" },
-        { "nombre": "GU50017 002 56", "imagen": "../IMAGENES/GUESS/GU50017 002 56.webp" },
-        { "nombre": "GU50018 052 52", "imagen": "../IMAGENES/GUESS/GU50018 052 52.webp" },
-        { "nombre": "GU50018 001 52", "imagen": "../IMAGENES/GUESS/GU50018 001 52.webp" },
-        { "nombre": "GU50059 052 53", "imagen": "../IMAGENES/GUESS/GU50059 052 53.webp" },
-        { "nombre": "GU50062 001 54", "imagen": "../IMAGENES/GUESS/GU50062 001 54.webp" },
-        { "nombre": "GU50062 020 54", "imagen": "../IMAGENES/GUESS/GU50062 020 54.webp" },
-        { "nombre": "GU50062 052 52", "imagen": "../IMAGENES/GUESS/GU50062 052 52.webp" },
-        { "nombre": "GU50063 005 54", "imagen": "../IMAGENES/GUESS/GU50063 005 54.webp" },
-        { "nombre": "GU50063 056 54", "imagen": "../IMAGENES/GUESS/GU50063 056 54.webp" },
-        { "nombre": "GU50068 052 52", "imagen": "../IMAGENES/GUESS/GU50068 052 52.webp" },
-        { "nombre": "GU50068 056 54", "imagen": "../IMAGENES/GUESS/GU50068 056 54.webp" },
-        { "nombre": "GU50068 092 52", "imagen": "../IMAGENES/GUESS/GU50068 092 52.webp" },
-        { "nombre": "GU50073 002 54", "imagen": "../IMAGENES/GUESS/GU50073 002 54.webp" },
-        { "nombre": "GU50073 020 54", "imagen": "../IMAGENES/GUESS/GU50073 020 54.webp" },
-        { "nombre": "GU50077-D 052 55", "imagen": "../IMAGENES/GUESS/GU50077-D 052 55.webp" },
-        { "nombre": "GU50088 005 54", "imagen": "../IMAGENES/GUESS/GU50088 005 54.webp" },
-        { "nombre": "GU50088-D 052 54", "imagen": "../IMAGENES/GUESS/GU50088-D 052 54.webp" },
-        { "nombre": "GU50089 044 56", "imagen": "../IMAGENES/GUESS/GU50089 044 56.webp" },
-        { "nombre": "GU50090 020 56", "imagen": "../IMAGENES/GUESS/GU50090 020 56.webp" },
-        { "nombre": "GU50090 092 56", "imagen": "../IMAGENES/GUESS/GU50090 092 56.webp" },
-        { "nombre": "GU50114 053 53", "imagen": "../IMAGENES/GUESS/GU50114 053 53.webp" },
-        { "nombre": "GU50114 001 51", "imagen": "../IMAGENES/GUESS/GU50114 001 51.webp" },
-        { "nombre": "GU50130 052 57", "imagen": "../IMAGENES/GUESS/GU50130 052 57.webp" },
-        { "nombre": "GU50133 001 53", "imagen": "../IMAGENES/GUESS/GU50133 001 53.webp" },
-        { "nombre": "GU50133 053 55", "imagen": "../IMAGENES/GUESS/GU50133 053 55.webp" },
-        { "nombre": "GU50153 001 53", "imagen": "../IMAGENES/GUESS/GU50153 001 53.webp" },
-        { "nombre": "GU50153-D 052 53", "imagen": "../IMAGENES/GUESS/GU50153-D 052 53.webp" },
-        { "nombre": "GU5219 092 54", "imagen": "../IMAGENES/GUESS/GU5219 092 54.webp" },
-        { "nombre": "GU5220 066 51", "imagen": "../IMAGENES/GUESS/GU5220 066 51.webp" },
-        { "nombre": "GU5220 092 51", "imagen": "../IMAGENES/GUESS/GU5220 092 51.webp" },
-        { "nombre": "GU5223 052 54", "imagen": "../IMAGENES/GUESS/GU5223 052 54.webp" },
-        { "nombre": "GU8248 093 51", "imagen": "../IMAGENES/GUESS/GU8248 093 51.webp" },
-        { "nombre": "GU2926/V 089 53", "imagen": "../IMAGENES/GUESS/GU2926V 089 53.webp" },
-        { "nombre": "GU2689-D 001 51", "imagen": "../IMAGENES/GUESS/GU2689-D 001 51.webp" },
-        { "nombre": "GU2717 090 51", "imagen": "../IMAGENES/GUESS/GU2717 090 51.webp" },
-        { "nombre": "GU2748/V 052 53", "imagen": "../IMAGENES/GUESS/GU2748V 052 53.webp" },
-        { "nombre": "GU2755/V 082 53", "imagen": "../IMAGENES/GUESS/GU2755V 082 53.webp" },
-        { "nombre": "GU2909/V 092 53", "imagen": "../IMAGENES/GUESS/GU2909V 092 53.webp" },
-        { "nombre": "GU2941/V 052 51", "imagen": "../IMAGENES/GUESS/GU2941 052 51.webp" },
-        { "nombre": "GU2949-N/V  089 53", "imagen": "../IMAGENES/GUESS/GU2949-N 089 53.webp" },
-        { "nombre": "GU2953/V 032 53", "imagen": "../IMAGENES/GUESS/GU2953 032 53.webp" },
-        { "nombre": "GU8252/V 052 57", "imagen": "../IMAGENES/GUESS/GU8252 052 57.webp" },
-        { "nombre": "GU50048/ V 053 52", "imagen": "../IMAGENES/GUESS/GU50048 053 52.webp" },
-        { "nombre": "GU50095/V 091 53", "imagen": "../IMAGENES/GUESS/GU50095 091 53.avif" },
-        { "nombre": "GU50048/V 020 54", "imagen": "../IMAGENES/GUESS/GU50048 020 54.webp" }
-      
-    ],
-      "GUESS-MARCIANO": [
-        {
-          "nombre": "GM0331 056 53",
-          "imagen": "../IMAGENES/GM/GM0331 056 53.webp"
-        },
-        {
-          "nombre": "GM0299-3 054 53",
-          "imagen": "../IMAGENES/GM/GM0299-3 054 53.webp"
-        },
-        {
-          "nombre": "GM0363 092 51",
-          "imagen": "../IMAGENES/GM/GM0363 092 51.webp"
-        },
-        {
-          "nombre": "GM0340 054 53",
-          "imagen": "../IMAGENES/GM/GM0340 054 53.webp"
-        },
-        {
-          "nombre": "GM0372 069 58",
-          "imagen": "../IMAGENES/GM/GM0372 069 58.webp"
-        },
-        {
-          "nombre": "GM0372 032 58",
-          "imagen": "../IMAGENES/GM/GM0372 032 58.webp"
-        }
-      ]
-  ,
-    "HD": [
-        { "nombre": "AX3048F 8235 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax1055.webp" },
-        { "nombre": "AX1055 6000 58", "imagen": "../IMAGENES/ARMANI-EXCHANGE/AX1059.webp" },
-        { "nombre": "AX3048F 8239 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048.webp" },
-        { "nombre": "AX1059 6000 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048f.webp" }
-    ],
-    "HUGO-BOSS": [
-        { "nombre": "AX3048F 8235 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax1055.webp" },
-        { "nombre": "AX1055 6000 58", "imagen": "../IMAGENES/ARMANI-EXCHANGE/AX1059.webp" },
-        { "nombre": "AX3048F 8239 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048.webp" },
-        { "nombre": "AX1059 6000 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048f.webp" }
-    ],
-    "lacoste":[
-        {"nombre":"../IMAGENES/COACH-MODELOS/", "imagen":".."} 
-    ],
-    "MK": [
-        { "nombre": "AX3048F 8235 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax1055.webp" },
-        { "nombre": "AX1055 6000 58", "imagen": "../IMAGENES/ARMANI-EXCHANGE/AX1059.webp" },
-        { "nombre": "AX3048F 8239 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048.webp" },
-        { "nombre": "AX1059 6000 56", "imagen": "../IMAGENES/ARMANI-EXCHANGE/ax3048f.webp" }
-    ],
-    "nike":[
-        {"nombre":"../IMAGENES/COACH-MODELOS/", "imagen":".."} 
-    ],
-    
-    "salvatore":[
-        {"nombre":"../IMAGENES/COACH-MODELOS/", "imagen":".."} 
-    ],
-    "swarosky":[
-        {"nombre":"../IMAGENES/COACH-MODELOS/", "imagen":".."} 
-    ],
-    "tomford":[
-        {"nombre":"../IMAGENES/COACH-MODELOS/", "imagen":".."} 
-    ],
-    "tous":[
-        {"nombre":"../IMAGENES/COACH-MODELOS/", "imagen":".."} 
-    ],
-    "CH-MODELOS":[
-        {"nombre":"../IMAGENES/COACH-MODELOS/", "imagen":".."} 
-    ],
-    "puma": [
-        { "nombre": "Modelo Puma 1", "imagen": "../IMAGENES/puma1.webp" },
-        { "nombre": "Modelo Puma 2", "imagen": "../IMAGENES/puma2.webp" }
-    ]
-}
+ "HD": [
+  {
+    "nombre": "HD0541 083 55",
+    "imagen": "../IMAGENES/HD/HD0541 083 55.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0541 049 55",
+    "imagen": "../IMAGENES/HD/HD0541 049 55.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0550 002 53",
+    "imagen": "../IMAGENES/HD/HD0550 002 53.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0552 082 51",
+    "imagen": "../IMAGENES/HD/HD0552 082 51.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0556 032 54",
+    "imagen": "../IMAGENES/HD/HD0556 032 54.webp",
+    "stock": "0"
+  },
+  {
+    "nombre": "HD0561/V 070 54",
+    "imagen": "../IMAGENES/HD/HD0561 070 54.webp",
+    "stock": "2"
+  },
+  {
+    "nombre": "HD0561/V 010 54",
+    "imagen": "../IMAGENES/HD/HD0561 010 54.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0562/V 083 52",
+    "imagen": "../IMAGENES/HD/HD0562 083 52.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0563/V 005 52",
+    "imagen": "../IMAGENES/HD/HD0563 005 52.webp",
+    "stock": "2"
+  },
+  {
+    "nombre": "HD0563/V 082 52",
+    "imagen": "../IMAGENES/HD/HD0563 082 52.webp",
+    "stock": "2"
+  },
+  {
+    "nombre": "HD0563/O 002 52",
+    "imagen": "../IMAGENES/HD/HD0563 002  52.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0570/V 001 55",
+    "imagen": "../IMAGENES/HD/HD0570 001 55.webp",
+    "stock": "4"
+  },
+  {
+    "nombre": "HD0570/V 069 55",
+    "imagen": "../IMAGENES/HD/HD0570 069 55.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0573/O 071 54",
+    "imagen": "../IMAGENES/HD/HD0573 071 54.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0980/V 020 56",
+    "imagen": "../IMAGENES/HD/HD0980 020 56.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0981/V 026 56",
+    "imagen": "../IMAGENES/HD/HD0981 026 56.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD0983/O 002 52",
+    "imagen": "../IMAGENES/HD/HD0983 002 52.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HD9018/V 011 56",
+    "imagen": "../IMAGENES/HD/HD9018 011 56.webp",
+    "stock": "1"
+  }
+],
+
+ "Hugo-Boss": [
+  {
+    "nombre": "BOSS 1158 086 55",
+    "imagen": "../IMAGENES/HugoBoss/BOSS 1158 086 55.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HG 0252 4IN 53",
+    "imagen": "../IMAGENES/HugoBoss/HG 0252 4IN 53.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "BOSS 1244 NUC 55",
+    "imagen": "../IMAGENES/HugoBoss/BOSS 1244 NUC 55.webp",
+    "stock": "0"
+  },
+  {
+    "nombre": "BOSS 1015 38I 53",
+    "imagen": "../IMAGENES/HugoBoss/BOSS 1015 38I 53.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "BOSS 1116 YZ4 57",
+    "imagen": "../IMAGENES/HugoBoss/BOSS 1116 YZ4 57.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "BOSS 0996 807 52",
+    "imagen": "../IMAGENES/HugoBoss/BOSS 0996 807 52.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HG 1202 KB7 53",
+    "imagen": "../IMAGENES/HugoBoss/HG 1202 KB7 53.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HG 1171 6AK 53",
+    "imagen": "../IMAGENES/HugoBoss/HG 1171 6AK 53.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HG 1120 LKS 56",
+    "imagen": "../IMAGENES/HugoBoss/HG 1120 LKS 56.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "BOSS 1095 807 145",
+    "imagen": "../IMAGENES/HugoBoss/BOSS 1095 807 145.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HG 1171 086 53",
+    "imagen": "../IMAGENES/HugoBoss/HG 1171 086 53.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HG 1078 SR8 54",
+    "imagen": "../IMAGENES/HugoBoss/HG 1078 SR8 54.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HG 0182 FLL 140",
+    "imagen": "../IMAGENES/HugoBoss/HG 0182 FLL 140.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HUGO 0117 8IW 52",
+    "imagen": "../IMAGENES/HugoBoss/HUGO 0117 8IW 52.webp",
+    "stock": "1"
+  },
+  {
+    "nombre": "HG 0084 807 52",
+    "imagen": "../IMAGENES/HugoBoss/HG 0084 807 52.webp",
+    "stock": "1"
+  }
+],
+     "Lacoste": [
+  {"nombre": "L2817 210 54", "imagen": "../IMAGENES/Lacoste/L2817 210 54.webp", "stock": "0"},
+  {"nombre": "L2827 466 52", "imagen": "../IMAGENES/Lacoste/L2827 466 52.webp", "stock": "1"},
+  {"nombre": "L2828 PC215 50", "imagen": "../IMAGENES/Lacoste/L2828 PC215 50.webp", "stock": "1"},
+  {"nombre": "L2829 214 54", "imagen": "../IMAGENES/Lacoste/L2829 214 54.webp", "stock": "5"},
+  {"nombre": "L2834 214 52", "imagen": "../IMAGENES/Lacoste/L2834 214 52.webp", "stock": "1"},
+  {"nombre": "L2838 214 49", "imagen": "../IMAGENES/Lacoste/L2838 214 49.webp", "stock": "1"},
+  {"nombre": "L2841 210 53", "imagen": "../IMAGENES/Lacoste/L2841 210 53.webp", "stock": "1"},
+  {"nombre": "L2850 001 53", "imagen": "../IMAGENES/Lacoste/L2850 001 53.webp", "stock": "1"},
+  {"nombre": "L2852 218 55", "imagen": "../IMAGENES/Lacoste/L2852 218 55.webp", "stock": "1"},
+  {"nombre": "L2860 215 55", "imagen": "../IMAGENES/Lacoste/L2860 215 55.webp", "stock": "1"},
+  {"nombre": "L2863 214 53", "imagen": "../IMAGENES/Lacoste/L2863 214 53.webp", "stock": "1"},
+  {"nombre": "L2863 220 53", "imagen": "../IMAGENES/Lacoste/L2863 220 53.webp", "stock": "1"},
+  {"nombre": "L2870 615 54", "imagen": "../IMAGENES/Lacoste/L2870 615 54.webp", "stock": "1"},
+  {"nombre": "L2871 214 54", "imagen": "../IMAGENES/Lacoste/L2871 214 54.webp", "stock": "1"},
+  {"nombre": "L2888 240 55", "imagen": "../IMAGENES/Lacoste/L2888 240 55.webp", "stock": "1"},
+  {"nombre": "L2888 001 55", "imagen": "../IMAGENES/Lacoste/L2888 001 55.webp", "stock": "1"},
+  {"nombre": "L2901 001 53", "imagen": "../IMAGENES/Lacoste/L2901 001 53.webp", "stock": "1"},
+  {"nombre": "L2901 232 53", "imagen": "../IMAGENES/Lacoste/L2901 232 53.webp", "stock": "1"},
+  {"nombre": "L2906 240 55", "imagen": "../IMAGENES/Lacoste/L2906 240 55.webp", "stock": "5"},
+  {"nombre": "L2906 681 55", "imagen": "../IMAGENES/Lacoste/L2906 681 55.webp", "stock": "1"},
+  {"nombre": "L2906 001 55", "imagen": "../IMAGENES/Lacoste/L2906 001 55.webp", "stock": "9"},
+  {"nombre": "L2909 240 51", "imagen": "../IMAGENES/Lacoste/L2909 240 51.webp", "stock": "6"},
+  {"nombre": "L3635 615 49", "imagen": "../IMAGENES/Lacoste/L3635 615 49.webp", "stock": "1"},
+  {"nombre": "L3804B 210 51", "imagen": "../IMAGENES/Lacoste/L3804B 210 51.webp", "stock": "4"},
+  {"nombre": "L3804B 318 51", "imagen": "../IMAGENES/Lacoste/L3804B 318 51.webp", "stock": "4"},
+  {"nombre": "L2937 218 54", "imagen": "../IMAGENES/Lacoste/L2937 218 54.webp", "stock": "4"},
+  {"nombre": "L2933 400 54", "imagen": "../IMAGENES/Lacoste/L2933 400 54.webp", "stock": "5"},
+  {"nombre": "L2933 230 54", "imagen": "../IMAGENES/Lacoste/L2933 230 54.webp", "stock": "4"},
+  {"nombre": "L2925 400 54", "imagen": "../IMAGENES/Lacoste/L2925 400 54.webp", "stock": "4"},
+  {"nombre": "L2922 603 55", "imagen": "../IMAGENES/Lacoste/L2922 603 55.webp", "stock": "4"},
+  {"nombre": "L2920 615 54", "imagen": "../IMAGENES/Lacoste/L2920 615 54.webp", "stock": "5"},
+  {"nombre": "L2920 001 54", "imagen": "../IMAGENES/Lacoste/L2920 001 54.webp", "stock": "2"},
+  {"nombre": "L2920 272 54", "imagen": "../IMAGENES/Lacoste/L2920 272 54.webp", "stock": "5"},
+  {"nombre": "L2913 301 53", "imagen": "../IMAGENES/Lacoste/L2913 301 53.webp", "stock": "3"},
+  {"nombre": "L2888 230 55", "imagen": "../IMAGENES/Lacoste/L2888 230 55.webp", "stock": "4"},
+  {"nombre": "L2776 214 53", "imagen": "../IMAGENES/Lacoste/L2776 214 53.webp", "stock": "4"},
+  {"nombre": "L2743 514 52", "imagen": "../IMAGENES/Lacoste/L2743 514 52.webp", "stock": "4"},
+  {"nombre": "L2286 401 55", "imagen": "../IMAGENES/Lacoste/L2286 401 55.webp", "stock": "4"},
+  {"nombre": "L2286 021 55", "imagen": "../IMAGENES/Lacoste/L2286 021 55.webp", "stock": "4"}
+],
+   "MICHAEL-KORS": [
+  {"nombre": "MK829M 226 53", "imagen": "../IMAGENES/Michael Kors/MK829M 226 53.webp", "stock": "5"},
+  {"nombre": "MK829M 025 53", "imagen": "../IMAGENES/Michael Kors/MK829M 025 53.webp", "stock": "5"},
+  {"nombre": "MK3023 3214 52", "imagen": "../IMAGENES/Michael Kors/MK3023 3214 52.webp", "stock": "3"},
+  {"nombre": "MK3050 TORONTO 1213 53", "imagen": "../IMAGENES/Michael Kors/MK3050 TORONTO 1213 53.webp", "stock": "1"},
+  {"nombre": "MK3066J EMPIRE ROUNDE 1016 53", "imagen": "../IMAGENES/Michael Kors/MK3066J EMPIRE ROUNDE 1016 53.webp", "stock": "3"},
+  {"nombre": "MK3053 FERNIE 1153 54", "imagen": "../IMAGENES/Michael Kors/MK3053 FERNIE 1153 54.webp", "stock": "4"},
+  {"nombre": "MK4085U EDINBURGH 3005 52", "imagen": "../IMAGENES/Michael Kors/MK4085U EDINBURGH 3005 52.webp", "stock": "1"},
+  {"nombre": "MK4030 VIVIANA II 3163 54", "imagen": "../IMAGENES/Michael Kors/MK4030 VIVIANA II 3163 54.webp", "stock": "5"},
+  {"nombre": "MK4094U KARLIE I 3009 51", "imagen": "../IMAGENES/Michael Kors/MK4094U KARLIE I 3009 51.webp", "stock": "1"},
+  {"nombre": "MK4095U DOLONNE 3333 53", "imagen": "../IMAGENES/Michael Kors/MK4095U DOLONNE 3333 53.webp", "stock": "1"},
+  {"nombre": "MK4095U DOLONNE 3006 53", "imagen": "../IMAGENES/Michael Kors/MK4095U DOLONNE 3006 53.webp", "stock": "1"},
+  {"nombre": "MK4096U LADUE 3006 56", "imagen": "../IMAGENES/Michael Kors/MK4096U LADUE 3006 56.webp", "stock": "5"},
+  {"nombre": "MK4098BU SABOLE 3005 56", "imagen": "../IMAGENES/Michael Kors/MK4098BU SABOLE 3005 56.webp", "stock": "1"},
+  {"nombre": "MK4099 INNSBRUCK 3251 52", "imagen": "../IMAGENES/Michael Kors/MK4099 INNSBRUCK 3251 52.webp", "stock": "1"},
+  {"nombre": "MK4097 GRIVE 3333 54", "imagen": "../IMAGENES/Michael Kors/MK4097 GRIVE 3333 54.webp", "stock": "1"},
+  {"nombre": "MK4099 INNSBRUCK 3005 52", "imagen": "../IMAGENES/Michael Kors/MK4099 INNSBRUCK 3005 52.webp", "stock": "1"},
+  {"nombre": "MK281 618 52", "imagen": "../IMAGENES/Michael Kors/MK281 618 52.webp", "stock": "1"},
+  {"nombre": "MK842 604 51", "imagen": "../IMAGENES/Michael Kors/MK842 604 51.webp", "stock": "3"},
+  {"nombre": "MK3017 1187 51", "imagen": "../IMAGENES/Michael Kors/MK3017 1187 51.webp", "stock": "3"},
+  {"nombre": "MK3042B 1108 51", "imagen": "../IMAGENES/Michael Kors/MK3042B 1108 51.webp", "stock": "3"},
+  {"nombre": "MK3035 1014 54", "imagen": "../IMAGENES/Michael Kors/MK3035 1014 54.webp", "stock": "3"},
+  {"nombre": "MK3050 1334 53", "imagen": "../IMAGENES/Michael Kors/MK3050 1334 53.webp", "stock": "3"},
+  {"nombre": "MK3056 1014 55", "imagen": "../IMAGENES/Michael Kors/MK3056 1014 55.webp", "stock": "1"},
+  {"nombre": "MK3056 1153 53", "imagen": "../IMAGENES/Michael Kors/MK3056 1153 53.webp", "stock": "1"},
+  {"nombre": "MK3058B 1014 54", "imagen": "../IMAGENES/Michael Kors/MK3058B 1014 54.webp", "stock": "3"},
+  {"nombre": "MK3058B 1108 54", "imagen": "../IMAGENES/Michael Kors/MK3058B 1108 54.webp", "stock": "3"},
+  {"nombre": "MK3059 1153 54", "imagen": "../IMAGENES/Michael Kors/MK3059 1153 54.webp", "stock": "3"},
+  {"nombre": "MK3062 1005 54", "imagen": "../IMAGENES/Michael Kors/MK3062 1005 54.webp", "stock": "3"},
+  {"nombre": "MK3063 1108 53", "imagen": "../IMAGENES/Michael Kors/MK3063 1108 53.webp", "stock": "3"},
+  {"nombre": "MK4074 3332 51", "imagen": "../IMAGENES/Michael Kors/MK4074 3332 51.webp", "stock": "3"},
+  {"nombre": "MK4081 3005 53", "imagen": "../IMAGENES/Michael Kors/MK4081 3005 53.webp", "stock": "3"},
+  {"nombre": "MK4084U 3006 54", "imagen": "../IMAGENES/Michael Kors/MK4084U 3006 54.webp", "stock": "1"},
+  {"nombre": "MK4085U 3009 54", "imagen": "../IMAGENES/Michael Kors/MK4085U 3009 54.webp", "stock": "1"},
+  {"nombre": "MK4088 3707 53", "imagen": "../IMAGENES/Michael Kors/MK4088 3707 53.webp", "stock": "3"},
+  {"nombre": "MK4090 3251 54", "imagen": "../IMAGENES/Michael Kors/MK4090 3251 54.webp", "stock": "3"},
+  {"nombre": "MK4091 3006 52", "imagen": "../IMAGENES/Michael Kors/MK4091 3006 52.webp", "stock": "1"},
+  {"nombre": "MK4093 3006 52", "imagen": "../IMAGENES/Michael Kors/MK4093 3006 52.webp", "stock": "2"},
+  {"nombre": "MK4094 3909 51", "imagen": "../IMAGENES/Michael Kors/MK4094 3909 51.webp", "stock": "1"}
+],
+   "Nike":[
+  {"nombre": "NIKE 8141 212 55", "imagen": "../IMAGENES/Nike/NIKE 8141 212 55.webp", "stock": "7"},
+  {"nombre": "NIKE 8140 050 58", "imagen": "../IMAGENES/Nike/NIKE 8140 050 58.webp", "stock": "2"},
+  {"nombre": "NIKE 8053 074 55", "imagen": "../IMAGENES/Nike/NIKE 8053 074 55.webp", "stock": "5"},
+  {"nombre": "NIKE 7281 032 53", "imagen": "../IMAGENES/Nike/NIKE 7281 032 53.webp", "stock": "13"},
+  {"nombre": "NK7282 037 52", "imagen": "../IMAGENES/Nike/NK7282 037 52.webp", "stock": "3"},
+  {"nombre": "NIKE 7286 240 54", "imagen": "../IMAGENES/Nike/NIKE 7286 240 54.webp", "stock": "4"},
+  {"nombre": "NIKE 7284 244 54", "imagen": "../IMAGENES/Nike/NIKE 7284 244 54.webp", "stock": "4"},
+  {"nombre": "NIKE 7283 202 52", "imagen": "../IMAGENES/Nike/NIKE 7283 202 52.webp", "stock": "6"},
+  {"nombre": "NK 7281 401 50", "imagen": "../IMAGENES/Nike/NK 7281 401 50.webp", "stock": "3"},
+  {"nombre": "NIKE 7283 001 52", "imagen": "../IMAGENES/Nike/NIKE 7283 001 52.webp", "stock": "6"},
+  {"nombre": "NIKE 7281 002 53", "imagen": "../IMAGENES/Nike/NIKE 7281 002 53.webp", "stock": "7"},
+  {"nombre": "NIKE 7281 001 53", "imagen": "../IMAGENES/Nike/NIKE 7281 001 53.webp", "stock": "5"},
+  {"nombre": "NIKE 7270 900 52", "imagen": "../IMAGENES/Nike/NIKE 7270 900 52.webp", "stock": "9"},
+  {"nombre": "NK7255 239 53", "imagen": "../IMAGENES/Nike/NK7255 239 53.webp", "stock": "7"},
+  {"nombre": "NIKE 7240 211 55", "imagen": "../IMAGENES/Nike/NIKE 7240 211 55.webp", "stock": "7"},
+  {"nombre": "NIKE 7155 001 51", "imagen": "../IMAGENES/Nike/NIKE 7155 001 51.webp", "stock": "6"},
+  {"nombre": "NIKE 7150 302 54", "imagen": "../IMAGENES/Nike/NIKE 7150 302 54.webp", "stock": "8"},
+  {"nombre": "NIKE 7115 004 51", "imagen": "../IMAGENES/Nike/NIKE 7115 004 51.webp", "stock": "2"},
+  {"nombre": "NIKE 7047 239 47", "imagen": "../IMAGENES/Nike/NIKE 7047 239 47.webp", "stock": "4"},
+  {"nombre": "NIKE 6045 002 54", "imagen": "../IMAGENES/Nike/NIKE 6045 002 54.webp", "stock": "8"}
+],
+  "Puma":[
+  {"nombre": "PE00280 004 55", "imagen": "../IMAGENES/Puma/PE00280 004 55.webp", "stock": "1"},
+  {"nombre": "PE00160 020 56", "imagen": "../IMAGENES/Puma/PE00160 020 56.webp", "stock": "0"},
+  {"nombre": "PE00840 001 54", "imagen": "../IMAGENES/Puma/PE00840 001 54.webp", "stock": "1"},
+  {"nombre": "PE00840 004 54", "imagen": "../IMAGENES/Puma/PE00840 004 54.webp", "stock": "1"},
+  {"nombre": "PU02070 003 57", "imagen": "../IMAGENES/Puma/PU02070 003 57.webp", "stock": "1"},
+  {"nombre": "PU02630 004 53", "imagen": "../IMAGENES/Puma/PU02630 004 53.webp", "stock": "1"},
+  {"nombre": "PU02080 006 57", "imagen": "../IMAGENES/Puma/PU02080 006 57.webp", "stock": "1"},
+  {"nombre": "PU02770 004 56", "imagen": "../IMAGENES/Puma/PU02770 004 56.webp", "stock": "1"},
+  {"nombre": "PU03310 002 57", "imagen": "../IMAGENES/Puma/PU03310 002 57.webp", "stock": "1"},
+  {"nombre": "PU03030 001 59", "imagen": "../IMAGENES/Puma/PU03030 001 59.webp", "stock": "1"},
+  {"nombre": "PU03540 003 57", "imagen": "../IMAGENES/Puma/PU03540 003 57.webp", "stock": "0"},
+  {"nombre": "PU03720 003 55", "imagen": "../IMAGENES/Puma/PU03720 003 55.webp", "stock": "1"},
+  {"nombre": "PU03560 004 55", "imagen": "../IMAGENES/Puma/PU03560 004 55.webp", "stock": "1"},
+  {"nombre": "PU03650 001 56", "imagen": "../IMAGENES/Puma/PU03650 001 56.webp", "stock": "1"},
+  {"nombre": "PU03900 003 56", "imagen": "../IMAGENES/Puma/PU03900 003 56.webp", "stock": "0"},
+  {"nombre": "PU03810 002 51", "imagen": "../IMAGENES/Puma/PU03810 002 51.webp", "stock": "0"},
+  {"nombre": "PU0355O 002 58", "imagen": "../IMAGENES/Puma/PU0355O 002 58.webp", "stock": "6"},
+  {"nombre": "PU0276O 001 58", "imagen": "../IMAGENES/Puma/PU0276O 001 58.webp", "stock": "10"},
+  {"nombre": "PU0363O 003 57", "imagen": "../IMAGENES/Puma/PU0363O 003 57.webp", "stock": "5"}
+],
+   "Salvatore-Ferragamo":[
+  {"nombre": "SF2771 228 54", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2771 228 54.webp", "stock": "1"},
+  {"nombre": "SF2777 210 53", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2777 210 53.webp", "stock": "1"},
+  {"nombre": "SF2824 522 54", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2824 522 54.webp", "stock": "1"},
+  {"nombre": "SF2830A 214 54", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2830A 214 54.webp", "stock": "1"},
+  {"nombre": "SF2830A 903 54", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2830A 903 54.webp", "stock": "1"},
+  {"nombre": "SF2838 214 53", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2838 214 53.webp", "stock": "1"},
+  {"nombre": "SF2844 057 54", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2844 057 54.webp", "stock": "1"},
+  {"nombre": "SF2905 640 54", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2905 640 54.webp", "stock": "1"},
+  {"nombre": "SF2912 004 52", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2912 004 52.webp", "stock": "1"},
+  {"nombre": "SF2912 241 52", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2912 241 52.webp", "stock": "1"},
+  {"nombre": "SF2913 001 51", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2913 001 51.webp", "stock": "1"},
+  {"nombre": "SF2915 004 54", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2915 004 54.webp", "stock": "1"},
+  {"nombre": "SF2928 432 52", "imagen": "../IMAGENES/Salvatore Ferragamo/SF2928 432 52.webp", "stock": "1"}
+],
+    "Swarovsky":[
+  {"nombre": "SK5344-F/V 052 53", "imagen": "../IMAGENES/Swarosky/SK5344-F V 052 53.webp", "stock": "3"},
+  {"nombre": "SK5336/O 052 53", "imagen": "../IMAGENES/Swarosky/SK5336 O 052 53.webp", "stock": "2"},
+  {"nombre": "SK5258/V 001 53", "imagen": "../IMAGENES/Swarosky/SK5258 V 001 53.webp", "stock": "2"},
+  {"nombre": "SK5255/O 087 53", "imagen": "../IMAGENES/Swarosky/SK5255 O 087 53.webp", "stock": "2"}
+],
+   "Timberland":[
+  {"nombre": "TB1787/O 008 55", "imagen": "../IMAGENES/Timberland/TB1787 O 008 55.webp", "stock": "1"},
+  {"nombre": "TB1762/O 052 56", "imagen": "../IMAGENES/Timberland/TB1762 O 052 56.webp", "stock": "2"},
+  {"nombre": "TB1722 052 54", "imagen": "../IMAGENES/Timberland/TB1722 052 54.webp", "stock": "1"},
+  {"nombre": "TB1722/V 020 54", "imagen": "../IMAGENES/Timberland/TB1722 V 020 54.webp", "stock": "4"},
+  {"nombre": "TB1721/V 091 58", "imagen": "../IMAGENES/Timberland/TB1721 V 091 58.webp", "stock": "2"},
+  {"nombre": "TB1709/V 091 53", "imagen": "../IMAGENES/Timberland/TB1709 V 091 53.webp", "stock": "1"},
+  {"nombre": "TB1666/0 052 57", "imagen": "../IMAGENES/Timberland/TB1666 0 052 57.webp", "stock": "1"},
+  {"nombre": "TB1669/V 002 56", "imagen": "../IMAGENES/Timberland/TB1669 V 002 56.webp", "stock": "1"},
+  {"nombre": "TB1631/V 069 57", "imagen": "../IMAGENES/Timberland/TB1631 V 069 57.webp", "stock": "2"},
+  {"nombre": "TB1630/V 002 59", "imagen": "../IMAGENES/Timberland/TB1630 V 002 59.webp", "stock": "1"},
+  {"nombre": "TB1607/V 002 56", "imagen": "../IMAGENES/Timberland/TB1607 V 002 56.webp", "stock": "1"},
+  {"nombre": "TB1619/V 020 58", "imagen": "../IMAGENES/Timberland/TB1619 V 020 58.webp", "stock": "1"},
+  {"nombre": "TB1590/V 057 53", "imagen": "../IMAGENES/Timberland/TB1590 V 057 53.webp", "stock": "2"},
+  {"nombre": "TB1547/O 049 53", "imagen": "../IMAGENES/Timberland/TB1547 O 049 53.webp", "stock": "2"}
+]
+    ,
+   "Tom-Ford": [
+  {"nombre": "TF5916B ECO 001 50", "imagen": "../IMAGENES/Tom Ford/TF5916B ECO 001 50.webp", "stock": "0"},
+  {"nombre": "TF5896B 001 56", "imagen": "../IMAGENES/Tom Ford/TF5896B 001 56.webp", "stock": "1"},
+  {"nombre": "TF5895B 001 51", "imagen": "../IMAGENES/Tom Ford/TF5895B 001 51.webp", "stock": "7"},
+  {"nombre": "TF5895B 052 51", "imagen": "../IMAGENES/Tom Ford/TF5895B 052 51.webp", "stock": "1"},
+  {"nombre": "TF5886B 001 52", "imagen": "../IMAGENES/Tom Ford/TF5886B 001 52.webp", "stock": "1"},
+  {"nombre": "TF5902B 052 54", "imagen": "../IMAGENES/Tom Ford/TF5902B 052 54.webp", "stock": "1"},
+  {"nombre": "TF5930DB 052 52", "imagen": "../IMAGENES/Tom Ford/TF5930DB 052 52.webp", "stock": "1"},
+  {"nombre": "TF5898B 001 52", "imagen": "../IMAGENES/Tom Ford/TF5898B 001 52.webp", "stock": "1"}
+],
+    "Tommy-Hilfiger":[
+  {"nombre": "TH 1191 K5Y 55", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1191 K5Y 55.webp", "stock": "2"},
+  {"nombre": "TH 1244 GFS 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1244 GFS 53.webp", "stock": "2"},
+  {"nombre": "TH 1318 VN4 54", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1318 VN4 54.webp", "stock": "1"},
+  {"nombre": "TH 1357 K2F 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1357 K2F 53.webp", "stock": "3"},
+  {"nombre": "TH 1357 P5Q 55", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1357 P5Q 55.webp", "stock": "3"},
+  {"nombre": "TH 1381 FB8 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1381 FB8 53.webp", "stock": "3"},
+  {"nombre": "TH 1483 C9A 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1483 C9A 53.webp", "stock": "3"},
+  {"nombre": "TH 1483 PJP 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1483 PJP 53.webp", "stock": "2"},
+  {"nombre": "TH 1488 HWJ 55", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1488 HWJ 55.webp", "stock": "3"},
+  {"nombre": "TH 1492 9N4 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1492 9N4 53.webp", "stock": "3"},
+  {"nombre": "TH 1492 PJP 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1492 PJP 53.webp", "stock": "1"},
+  {"nombre": "TH 1553 0086 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1553 0086 53.webp", "stock": "3"},
+  {"nombre": "TH 1553 OTG 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1553 OTG 53.webp", "stock": "3"},
+  {"nombre": "TH 1693/G V81 56", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1693 G V81  56.webp", "stock": "3"},
+  {"nombre": "TH 1708 PHW 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1708 PHW 53.webp", "stock": "3"},
+  {"nombre": "TH 1731 086 52", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1731 086 52.webp", "stock": "1"},
+  {"nombre": "TH 1775 ZX9 52", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1775 ZX9 52.webp", "stock": "3"},
+  {"nombre": "TH 1817 PJP 52", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1817 PJP 52.webp", "stock": "3"},
+  {"nombre": "TH 1819 086 55", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1819 086 55.webp", "stock": "3"},
+  {"nombre": "TH 1821 0FMP 51", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1821 0FMP 51.webp", "stock": "3"},
+  {"nombre": "TH 1822 807 51", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1822 807 51.webp", "stock": "2"},
+  {"nombre": "TH 1822 PJP 51", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1822 PJP 51.webp", "stock": "3"},
+  {"nombre": "TH 1825 086 55", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1825 086 55.webp", "stock": "2"},
+  {"nombre": "TH 1826 09Q 54", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1826 09Q 54.webp", "stock": "3"},
+  {"nombre": "TH 1837 R6S 52", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1837 R6S 52.webp", "stock": "3"},
+  {"nombre": "TH 1840 FMP 52", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1840 FMP 52.webp", "stock": "3"},
+  {"nombre": "TH 1863 38I 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1863 38I 53.webp", "stock": "2"},
+  {"nombre": "TH 1944 BLK 53", "imagen": "../IMAGENES/Tommy Hilfiger/TH 1944 BLK 53.webp", "stock": "3"}
+]
+    ,
+      "Versace": [
+  {"nombre": "0VE1247 1408 52", "imagen": "../IMAGENES/Versace/0VE1247 1408 52.webp", "stock": "1"},
+  {"nombre": "0VE1289 1002 55", "imagen": "../IMAGENES/Versace/0VE1289 1002 55.webp", "stock": "3"},
+  {"nombre": "0VE1289 1500 55", "imagen": "../IMAGENES/Versace/0VE1289 1500 55.webp", "stock": "1"},
+  {"nombre": "0VE3273 5307 54", "imagen": "../IMAGENES/Versace/0VE3273 5307 54.webp", "stock": "2"},
+  {"nombre": "0VE3318 108 52", "imagen": "../IMAGENES/Versace/0VE3318 108 52.webp", "stock": "1"},
+  {"nombre": "0VE3318 GB1 54", "imagen": "../IMAGENES/Versace/0VE3318 GB1 54.webp", "stock": "2"},
+  {"nombre": "0VE3320U GB1 54", "imagen": "../IMAGENES/Versace/0VE3320U GB1 54.webp", "stock": "1"},
+  {"nombre": "0VE3326U 108 55", "imagen": "../IMAGENES/Versace/0VE3326U 108 55.webp", "stock": "0"},
+  {"nombre": "0VE3333D 108 56", "imagen": "../IMAGENES/Versace/0VE3333D 108 56.webp", "stock": "2"},
+  {"nombre": "0VE3334 GB1 55", "imagen": "../IMAGENES/Versace/0VE3334 GB1 55.webp", "stock": "4"},
+  {"nombre": "0VE3334 5402 55", "imagen": "../IMAGENES/Versace/0VE3334 5402 55.webp", "stock": "2"},
+  {"nombre": "0VE3337 108 55", "imagen": "../IMAGENES/Versace/0VE3337 108 55.webp", "stock": "2"},
+  {"nombre": "0VE3337 5408 55", "imagen": "../IMAGENES/Versace/0VE3337 5408 55.webp", "stock": "23"}
+]
+
+  }

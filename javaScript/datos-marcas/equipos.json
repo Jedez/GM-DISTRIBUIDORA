@@ -1,5 +1,168 @@
 {
-    
-    "Microscopio":[{ "nombre":"Microscopio Specular" ,"imagen":"ruta" }]
-
-}
+    "Microscopio-Especular": [
+      {
+        "nombre": "Microscopio Especular",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/CAMARA-CONTEO.webp",
+        "descripcion": "Contador de células endoteliales de la córnea que sirve para determinar densidad, tamaño y forma de las células."
+      }
+    ],
+    "Maletin-Pruebas": [
+      {
+        "nombre": "Caja de pruebas Medop",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/maletin-pruebas3.webp",
+        "descripcion": "CAJA DE PRUEBA COREANA HASTA -4 DE CILINDRO Y ± 12 DE ESFERA "
+      }
+    ],
+    "Lampara-Hendidura": [
+      {
+        "nombre": "Lampara de hendidura",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/TOPCON.webp",
+        "descripcion": "LAMPARA DE HENDIDURA topcon SL-2d, LUZ HALOGENO, CON REVOLVER DE 3 PASOS (16, 25 Y 40X), FILTROS LUZ POLARIZADA, LUZ BLACA, AZUL COBALTO Y VERDE ANERITRA, HENDIDURA DE 0.1 MM A 12mm"
+      }
+    ],
+    "Lampara-topcon1": [
+        {
+          "nombre": "Lampara de hendidura Topcon",
+          "imagen": "../IMAGENES/EQUIPOS MUESTRA/lampara.webp",
+          "descripcion": "LAMPARA DE HENDIDURA topcon SL-1E, LUZ HALOGENO, CON ocular DE 2 PASOS 10x y 16x, FILTROS LUZ POLARIZADA, AZUL COBALTO Y VERDE ANERITRA, HENDIDURA DE 0.1 MM A 10mm"
+        }
+      ],
+      "Lampara-woodlyn": [
+        {
+          "nombre": "Lampara de hendidura Woodlyn",
+          "imagen": "../IMAGENES/EQUIPOS MUESTRA/lampara2.webp",
+          "descripcion": "LAMPARA DE HENDIDURA woodlyn , LUZ HALOGENO, ocular de 10x y 16x, FILTROS LUZ POLARIZADA, LUZ BLACA, AZUL COBALTO Y VERDE ANERITRA, HENDIDURA DE 0.1 MM A 8mm"
+        }
+      ],
+      "Lampara-marco": [
+        {
+          "nombre": "Lampara de hendidura Marco",
+          "imagen": "../IMAGENES/EQUIPOS MUESTRA/lampara3.webp",
+          "descripcion": "LAMPARA DE HENDIDURA marco 2b, LUZ HALOGENO, ocular de 10x y 16x, FILTROS LUZ POLARIZADA, LUZ BLACA, AZUL COBALTO Y VERDE ANERITRA, HENDIDURA DE 0.1 MM A 10mm"
+        }
+      ],
+      "Lampara-burton": [
+        {
+          "nombre": "Lampara de hendidura Burton",
+          "imagen": "../IMAGENES/EQUIPOS MUESTRA/lampara4.webp",
+          "descripcion": "LAMPARA DE HENDIDURA burton SL-6E, LUZ HALOGENO, con ocular de 10x y 16x, FILTROS LUZ POLARIZADA, LUZ BLACA, AZUL COBALTO Y VERDE ANERITRA, HENDIDURA DE 0.1 MM A 9mm"
+        }
+      ],
+      "Lampara-nidek": [
+        {
+          "nombre": "Lampara de hendidura Nidek",
+          "imagen": "../IMAGENES/EQUIPOS MUESTRA/lampara-nidek.webp",
+          "descripcion": "LAMPARA DE HENDIDURA ndek SL-450, LUZ HALOGENO, ocular de 10x y 16x, FILTROS LUZ POLARIZADA, LUZ BLACA, AZUL COBALTO Y VERDE ANERITRA, HENDIDURA DE 0.1 MM A 8mm"
+        }
+      ],
+      "Lampara-reichert": [
+        {
+          "nombre": "Lampara de hendidura Reichert",
+          "imagen": "../IMAGENES/EQUIPOS MUESTRA/lampara-reichert.webp",
+          "descripcion": "LAMPARA DE HENDIDURA reichert xcel-255, LUZ HALOGENO, CON REVOLVER DE 3 PASOS (1O, 16 y 25X), FILTROS LUZ POLARIZADA, LUZ BLACA, AZUL COBALTO Y VERDE ANERITRA, HENDIDURA DE 0.1 MM A 14mm"
+        }
+      ],
+    "Tomey": [
+      {
+        "nombre": "ark tomey rc-800",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/TOMEY.webp",
+        "descripcion": "AUTOREFRACTOMETRO CON QUERATOMETRO MARCA TOMEY. Con pantalla touch a color y con medicion automatica."
+      }
+    ],
+    "Unidad-topcon": [
+      {
+        "nombre": "Unidad TOPCON is-2500",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/unidad2.webp"
+      }
+    ],
+    "Unidad-burton": [
+      {
+        "nombre": "Unidad Burton xl-3300",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/unidad1.webp"
+      }
+    ],
+    "Laser-Argon": [
+      {
+        "nombre": "Laser Argon 532nm vitra 1",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/lacer.webp",
+        "descripcion":"Láser de argón de 532 nm marca Vitra. Fotocoagulación punto por punto con modo de repetición. Incluye láser, sonda de láser y lámpara de hendidura."
+      }
+    ],
+    "orbscan": [
+      {
+        "nombre": "Oftalmoscopio indirecto",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/unidad3.webp",
+        "descripcion": "Topógrafo corneal que genera un mapa de toda la superficie corneal, analizando las medidas de elevación, curvatura de la córnea, tanto de la superficie anterior como de la posterior, y paquimetría."
+      }
+    ],
+    "Tonometro-Aire": [
+      {
+        "nombre": "Tonometros de aire",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/tonometro-arie1.webp",
+        "descripcion": "Tonometro de no contacto. Marcas disponibles Reichert y American Optical"
+      }
+    ],
+    "Retinoscopio": [
+      {
+        "nombre": "Retinoscopio Wellch Allyn",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/retino.webp",
+        "descripcion": "Descripción del Retinoscopio."
+      }
+    ],
+    "Oftalmoscopio": [
+      {
+        "nombre": "Oftalmoscopio Wellch Allyn",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/oftalmoscopio.webp",
+        "descripcion": "Descripción del Oftalmoscopio."
+      }
+    ],
+    "IOL-Master": [
+      {
+        "nombre": "Iol Master",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/iol.webp",
+        "descripcion": "IOL Master 500, incluye calibrador e impresora."
+      }
+    ],
+    "Oftalmoscopio-Indirecto": [
+      {
+        "nombre": "Oftalmoscopio indirecto keeler",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/ofta-indi3.webp",
+        "descripcion": "incluye maletín, identador y lupa de 20d."
+      }
+    ],
+    "Queratometro": [
+      {
+        "nombre": "Queratometro",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/img-3.webp",
+        "descripcion": "Marcas disponibles:Woodlyn, Marco, KM 4."
+      }
+    ],
+    "tonometro": [
+      {
+        "nombre": "Tonometro",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/tonometro.webp",
+        "descripcion": "Marcas disponibles: Woodlyn y Burton."
+      }
+    ],
+    "Foroptor": [
+      {
+        "nombre": "Foroptor",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/img-9.webp",
+        "descripcion": "Marcas disponibles: Burton, Woodlyn, Reichert, Marco y Topcon."
+      }
+    ],
+    "visucam": [
+        {
+          "nombre": "Visucam",
+          "imagen": "../IMAGENES/EQUIPOS MUESTRA/pp.webp",
+          "descripcion": "Camara de retina visucam para fluorangiografia con 45 grados u opcion montaje de 7 campos, fotografia a color, verde, rojo y azul."
+        }
+      ],
+    "Lensometro": [
+      {
+        "nombre": "Lensometros",
+        "imagen": "../IMAGENES/EQUIPOS MUESTRA/lensometro-nikon.webp",
+        "descripcion": "Marcas disponibles: Topcon y Nikon."
+      }
+    ]
+  }

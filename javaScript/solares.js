@@ -29,7 +29,7 @@ async function mostrarProductos() {
 
     if (!marca) {
         productosDiv.innerHTML = `<p>No se ha seleccionado una marca.</p>`;
-        actualizarMetaDescripcion('Explora nuestra variedad de productos en GM Distribuidora.'); // Metadescripción genérica
+        actualizarMetaDescripcion('Explora nuestra variedad de productos en GM Distribuidora.');
         return;
     }
 
@@ -38,21 +38,52 @@ async function mostrarProductos() {
 
     if (productosMarca && productosMarca.length > 0) {
         tituloMarca.textContent = `${marca.toUpperCase()}`;
-        // Crear una descripción basada en el primer producto de la marca (puedes ajustarlo)
         const primeraDescripcion = `Descubre la selección de lentes y accesorios de la marca ${marca.toUpperCase()} en GM Distribuidora.`;
         actualizarMetaDescripcion(primeraDescripcion);
 
-        productosDiv.innerHTML = productosMarca.map(producto => `
+        productosDiv.innerHTML = productosMarca.map((producto, index) => `
             <div class="product-card">
-                <img loading="lazy" src="${producto.imagen}" alt="${producto.nombre}">
-                <p>${producto.nombre}</p>
+                <div class="image-container">
+                    <img loading="lazy" src="${producto.imagen}" alt="${producto.nombre}" data-modal-target="#modal-imagen" data-image-src="${producto.imagen}">
+                </div>
+                <div class="product-info">
+                    <div class="product-nombre">${producto.Modelo || producto.nombre}</div>
+                    <div class="product-stock">Stock: ${producto.Stock || producto.stock || 'N/A'}</div>
+                </div>
             </div>
         `).join('');
+
+        const modalTriggers = document.querySelectorAll('[data-modal-target]');
+        const modal = document.getElementById('modal-imagen');
+        const modalImage = modal.querySelector('.modal-image');
+        const closeButton = modal.querySelector('[data-modal-close]');
+
+        modalTriggers.forEach(trigger => {
+            trigger.addEventListener('click', function(event) {
+                event.preventDefault();
+                const imageSrc = this.dataset.imageSrc;
+                modalImage.src = imageSrc;
+                modal.style.display = 'block';
+                document.body.classList.add('modal-open');
+            });
+        });
+
+        closeButton.addEventListener('click', () => {
+            modal.style.display = 'none';
+            document.body.classList.remove('modal-open');
+        });
+
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+                document.body.classList.remove('modal-open');
+            }
+        });
+
     } else {
         productosDiv.innerHTML = `<p>No hay productos disponibles para esta marca.</p>`;
-        actualizarMetaDescripcion(`No hay productos disponibles para la marca ${marca} en GM Distribuidora.`); // Metadescripción específica si no hay productos
+        actualizarMetaDescripcion(`No hay productos disponibles para la marca ${marca} en GM Distribuidora.`);
     }
 }
 
-// Ejecutar la función al cargar la página
 window.onload = mostrarProductos;

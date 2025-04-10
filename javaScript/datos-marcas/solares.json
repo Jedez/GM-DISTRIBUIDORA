@@ -1,7 +1,36 @@
 {
  "GUCCI":[
-    {"nombre":"GUCCI 1","imagen":"../IMAGENES/GUCCI-SOLAR/GUCCI1.webp"  }
-
+   {"nombre": "GG0226S 004 56", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0226S 004 56.webp"},
+   {"nombre": "Gg1031S 009 59", "Stock": 4, "imagen": "../IMAGENES/GUCCI-SOLAR/Gg1031S 009 59.webp"},
+   {"nombre": "GG1421S 005 51", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1421S 005 51.webp"},
+   {"nombre": "GG1149S 003 60", "Stock": 5, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1149S 003 60.webp"},
+   {"nombre": "GG1096S 001 99", "Stock": 2, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1096S 001 99.webp"},
+   {"nombre": "GG1244S 001 99", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1244S 001 99.webp"},
+   {"nombre": "GG1633S 004 66", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1633S 004 66.webp"},
+   {"nombre": "GG0227S 001 62", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0227S 001 62.webp"},
+   {"nombre": "GG1235S 003 55", "Stock": 2, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1235S 003 55.webp"},
+   {"nombre": "GG1151S 003 51", "Stock": 4, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1151S 003 51.webp"},
+   {"nombre": "GG0061S 001 56", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0061S 001 56.webp"},
+   {"nombre": "GG0061S 007 56", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0061S 007 56.webp"},
+   {"nombre": "GG1262S 004 54", "Stock": 2, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1262S 004 54.webp"},
+   {"nombre": "GG0062S 010 57", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0062S 010 57.webp"},
+   {"nombre": "GG0990S 002 57", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0990S 002 57.webp"},
+   {"nombre": "GG1401S 004 53", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1401S 004 53.webp"},
+   {"nombre": "GG1436S 002 99", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1436S 002 99.webp"},
+   {"nombre": "GG1033S 002 57", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1033S 002 57.webp"},
+   {"nombre": "GG0164S 002 53", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0164S 002 53.webp"},
+   {"nombre": "GG1402S 002 55", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1402S 002 55.webp"},
+   {"nombre": "GG0228S 001 63", "Stock": 2, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0228S 001 63.webp"},
+   {"nombre": "GG0410S 005 61", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0410S 005 61.webp"},
+   {"nombre": "GG0361S 004 56", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0361S 004 56.webp"},
+   {"nombre": "GG1203S 003 65", "Stock": 2, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1203S 003 65.webp"},
+   {"nombre": "GG1283S 001 62", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1283S 001 62.webp"},
+   {"nombre": "GG0061S 015 56", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0061S 015 56.webp"},
+   {"nombre": "GG0226S 001 63", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0226S 001 63.webp"},
+   {"nombre": "GG1245S 001 99", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1245S 001 99.webp"},
+   {"nombre": "GG1406S 003 56", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1406S 003 56.webp"},
+   {"nombre": "GG0410SK 003 61", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG0410SK 003 61.webp"},
+   {"nombre": "GG1220S 004 59", "Stock": 1, "imagen": "../IMAGENES/GUCCI-SOLAR/GG1220S 004 59.webp"}
  ]
 
 }

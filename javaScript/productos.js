@@ -22,6 +22,8 @@ function actualizarMetaDescripcion(descripcion) {
 }
 
 // Función para mostrar los productos según la marca seleccionada
+// ... (Tus funciones existentes: obtenerParametroURL, cargarProductos, actualizarMetaDescripcion) ...
+
 async function mostrarProductos() {
     const marca = obtenerParametroURL('marca');
     const productosDiv = document.getElementById('productos-list');
@@ -29,7 +31,7 @@ async function mostrarProductos() {
 
     if (!marca) {
         productosDiv.innerHTML = `<p>No se ha seleccionado una marca.</p>`;
-        actualizarMetaDescripcion('Explora nuestra variedad de productos en GM Distribuidora.'); // Metadescripción genérica
+        actualizarMetaDescripcion('Explora nuestra variedad de productos en GM Distribuidora.');
         return;
     }
 
@@ -38,21 +40,61 @@ async function mostrarProductos() {
 
     if (productosMarca && productosMarca.length > 0) {
         tituloMarca.textContent = `${marca.toUpperCase()}`;
-        // Crear una descripción basada en el primer producto de la marca (puedes ajustarlo)
         const primeraDescripcion = `Descubre la selección de lentes y accesorios de la marca ${marca.toUpperCase()} en GM Distribuidora.`;
         actualizarMetaDescripcion(primeraDescripcion);
 
         productosDiv.innerHTML = productosMarca.map(producto => `
-            <div class="product-card">
+            <div class="product-card" data-producto='${JSON.stringify(producto)}'>
                 <img loading="lazy" src="${producto.imagen}" alt="${producto.nombre}">
                 <p>${producto.nombre}</p>
             </div>
         `).join('');
+
+        document.querySelectorAll('.product-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const producto = JSON.parse(card.dataset.producto);
+                mostrarDetallesProducto(producto);
+            });
+        });
     } else {
         productosDiv.innerHTML = `<p>No hay productos disponibles para esta marca.</p>`;
-        actualizarMetaDescripcion(`No hay productos disponibles para la marca ${marca} en GM Distribuidora.`); // Metadescripción específica si no hay productos
+        actualizarMetaDescripcion(`No hay productos disponibles para la marca ${marca} en GM Distribuidora.`);
     }
 }
 
-// Ejecutar la función al cargar la página
+function mostrarDetallesProducto(producto) {
+    const modal = document.getElementById('modal-producto');
+    const modalNombre = document.getElementById('modal-nombre');
+    const modalImagen = document.getElementById('modal-imagen');
+    const modalDimensiones = document.getElementById('modal-dimensiones');
+    const modalStock = document.getElementById('modal-stock');
+
+    modalNombre.textContent = producto.nombre;
+    modalImagen.src = producto.imagen;
+    modalImagen.alt = producto.nombre;
+    modalDimensiones.textContent = `Dimensiones: ${producto.dimensiones || 'No disponibles'}`;
+    modalStock.textContent = `Stock: ${producto.stock || 'No disponible'}`;
+
+    modal.style.display = 'block';
+
+    // Asignar el evento de clic al botón "X" dentro de la función mostrarDetallesProducto
+    const cerrarModal = modal.querySelector('.cerrar-modal');
+    if (cerrarModal) {
+        cerrarModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+    }
+}
+
+window.addEventListener('click', (event) => {
+    const modal = document.getElementById('modal-producto');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+});
+
 window.onload = mostrarProductos;
+
+// ... (Tus funciones existentes: obtenerParametroURL, cargarProductos, actualizarMetaDescripcion) ...
+
+// ... (Tus funciones existentes: obtenerParametroURL, cargarProductos, actualizarMetaDescripcion) ...
