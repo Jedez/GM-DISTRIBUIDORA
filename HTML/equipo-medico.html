@@ -1,153 +1,222 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Consulta el catálogo de productos por marca en GM Distribuidora: lentes oftálmicos, solares y equipos disponibles.">
-    <title>GM DISTRIBUIDORA</title>
-    <link rel="stylesheet" href="../CSS/equipo-ofatalmico.css">
-    <link rel="stylesheet" href="../CSS/barra-herramientas.css">
-    <link rel="stylesheet" href="../CSS/estilos-paginas.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
-    <link rel="icon" href="../IMAGENES/new-logo.png" type="image/x-icon">
-    <script src="../javaScript/barra-busqueda.js"></script>
-    <script src="../javaScript/usuario.js"></script>
-    <script src="../javaScript/mostrar-equipos.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GM distribuidora</title>
+        <link rel="preload" href="../CSS/normalize.css" as="style">
+        <link rel="stylesheet" href="../CSS/equipo-ofatalmico.css">
+        <link rel="stylesheet" href="../CSS/barra-herramientas.css">
+        <link rel="stylesheet" href="../CSS/estilos-paginas.css">
+        <link rel="stylesheet" href="../CSS/menu-hamburguesa.css">
+        <meta name="description" content="En GM Distribuidora encontrarás las mejores marcas en lentes oftálmicos, solares y equipos para profesionales de la salud visual. ¡Descubre nuestro catálogo y realiza tus pedidos!">
+        <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="../IMAGENES/new-logo.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=eyeglasses" />
+        <link rel="stylesheet" href="../CSS/hamburger-menu.css">
+        <script src="../javaScript/contenido-equipos.js" defer></script>
+        <script src="../javaScript/barra-busqueda.js" defer></script>
+        <script src="../javaScript/hamburger-menu.js" defer></script>
+    </head>
 <body>
     <header class="navbar">
-        <div class="logoInicio">
-            <a href="../HTML/mostrar-equipos.html?producto=" href="../index.html">
-                <img loading="lazy" src="../IMAGENES/new-logo.png" alt="Logo de la tienda">
-            </a href="../HTML/mostrar-equipos.html?producto=">
-        </div>
-        <div class="navbar-links">
-            <nav class="navbar-links" id="myNavbar">
-                <a href="../HTML/mostrar-equipos.html?producto=" href="../HTML/marcas-oftalmicos.html">Lentes Oftalmicos</a href="../HTML/mostrar-equipos.html?producto=">
-                <a href="../HTML/mostrar-equipos.html?producto=" href="../HTML/marcas-solares.html">Lentes Solares</a href="../HTML/mostrar-equipos.html?producto=">
-                <a href="../HTML/mostrar-equipos.html?producto=" href="../HTML/equipo-medico.html">Equipos</a href="../HTML/mostrar-equipos.html?producto=">
-            </nav>
-        </div>
-        <div class="search-container">
-            <input type="text" id="search" class="contenedor-busqueda" placeholder="Buscar producto...">
-            <button class="busqueda" onclick="searchProduct()">Buscar</button>
-        </div>
-       <!-- <div class="user-container">
-            <button id="user-button" onclick="toggleUserMenu()">
-                <img loading="lazy" src="../IMAGENES/user-icon.png" alt="Usuario" class="user-icon">
-            </button>
-            <div id="user-menu" class="user-menu-hidden">
-                <ul>
-                    <li><a href="../HTML/mostrar-equipos.html?producto=" href="#">Perfil</a href="../HTML/mostrar-equipos.html?producto="></li>
-                    <li><a href="../HTML/mostrar-equipos.html?producto=" href="#">Configuración</a href="../HTML/mostrar-equipos.html?producto="></li>
-                    <li><a href="../HTML/mostrar-equipos.html?producto=" href="#" onclick="logout()">Cerrar sesión</a href="../HTML/mostrar-equipos.html?producto="></li>
-                </ul>
+        <div class="logo-menu-container">
+            <div class="logoInicio">
+                <a href="../index.html">
+                    <img loading="lazy" src="../IMAGENES/new-logo.png" alt="Logo de la tienda">
+                </a>
             </div>
-        </div>-->
+            <button class="icon" onclick="toggleMenu()" aria-label="Menú principal">&#9776;</button>
+        </div>
+
+        <nav class="navbar-links" id="myNavbar">
+            <a href="../HTML/marcas-oftalmicos.html">Lentes Oftalmicos</a>
+            <a href="../HTML/marcas-solares.html">Lentes Solares</a>
+            <a href="../HTML/equipo-medico.html">Equipos</a>
+        </nav>
+
+        <div class="search-container">
+            <form id="search-form" action="../HTML/resultados-busqueda.html" method="get">
+                <input type="text" id="search" class="contenedor-busqueda" placeholder="Buscar producto..." name="query">
+                <button type="submit" class="busqueda" id="buscar-btn">Buscar</button>
+            </form>
+        </div>
     </header>
     <section class="productos-equipos">
         <h2 class="titulo-contenedor">Equipos</h2>
         <div class="product-list">
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=Microscopio">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/CAMARA-CONTEO.webp">
+                <a href="../HTML/mostrar-equipos.html?producto=Microscopio-Especular">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/CAMARA-CONTEO.webp" alt="Microscopio Specular">
                     <p>Microscopio Specular</p>
-                </a href="../HTML/mostrar-equipos.html?producto=">
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/maletin-pruebas1.webp">
-                    <p>Maletines de prueba</p>
-                </a href="../HTML/mostrar-equipos.html?producto=">
+                <a href="../HTML/mostrar-equipos.html?producto=Maletin-Pruebas">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/maletin-pruebas3.webp" alt="Maletines de prueba">
+                    <p>Maletines de prueba Medop</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/LAMPARA-1.webp">
-                    <p>Lamparas de hendidura</p>
-                </a href="../HTML/mostrar-equipos.html?producto=">
+                <a href="../HTML/mostrar-equipos.html?producto=Lampara-Hendidura">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/LAMPARA-1.webp" alt="Lamparas de hendidura">
+                    <p>Lampara de hendidura Topcon</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/TOMEY.webp">
+                <a href="../HTML/mostrar-equipos.html?producto=Lampara-topcon1">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lampara.webp" alt="Lamparas de hendidura">
+                    <p>Lampara de hendidura Topcon</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=Lampara-woodlyn">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lampara2.webp" alt="Lamparas de hendidura">
+                    <p>Lampara de hendidura Woodlyn</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=Lampara-marco">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lampara3.webp" alt="Lamparas de hendidura">
+                    <p>Lampara de hendidura Marco</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=Lampara-burton">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lampara4.webp" alt="Lamparas de hendidura">
+                    <p>Lampara de hendidura Burton</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=Lampara-nidek">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lampara-nidek.webp" alt="Lamparas de hendidura">
+                    <p>Lampara de hendidura Nidek</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=Lampara-reichert">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lampara-reichert.webp" alt="Lamparas de hendidura">
+                    <p>Lampara de hendidura Reichert</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=Tomey">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/TOMEY.webp" alt="Tomey">
                     <p>Tomey</p>
-                </a href="../HTML/mostrar-equipos.html?producto=">
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/UNIDAD-BURTON.webp">
-                    <p>Unidades Oftalmicas</p>
-                </a href="../HTML/mostrar-equipos.html?producto=">
+                <a href="../HTML/mostrar-equipos.html?producto=Unidad-topcon">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/2.webp" alt="Unidades Oftalmicas">
+                    <p>Unidades Topcon</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lacer.webp">
+                <a href="../HTML/mostrar-equipos.html?producto=Unidad-burton">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/UNIDAD-BURTON.webp" alt="Unidades Oftalmicas">
+                    <p>Unidades Burton</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=Laser-Argon">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lacer.webp" alt="Laser Argon 532nm vitra 1">
                     <p>Laser Argon 532nm vitra 1</p>
-                </a href="../HTML/mostrar-equipos.html?producto=">
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/ORBSCAN.webp">
-                </a href="../HTML/mostrar-equipos.html?producto=">
-                <p>Oftalmoscopio indirecto</p>
+                <a href="../HTML/mostrar-equipos.html?producto=orbscan">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/ORBSCAN.webp" alt="Oftalmoscopio indirecto">
+                    <p>Oftalmoscopio indirecto</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/tonometro-arie1.webp">
-                </a href="../HTML/mostrar-equipos.html?producto=">
-                <p>Tonometros de aire</p>
+                <a href="../HTML/mostrar-equipos.html?producto=Tonometro-Aire">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/tonometro-arie1.webp" alt="Tonometros de aire">
+                    <p>Tonometros de aire</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/retino.webp">
-                </a href="../HTML/mostrar-equipos.html?producto=">
-                <p>Retinoscopio</p>
+                <a href="../HTML/mostrar-equipos.html?producto=Retinoscopio">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/retino.webp" alt="Retinoscopio">
+                    <p>Retinoscopio</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/oftalmoscopio.webp">
-                </a href="../HTML/mostrar-equipos.html?producto=">
-                <p>Oftalmoscopio</p>
+                <a href="../HTML/mostrar-equipos.html?producto=Oftalmoscopio">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/oftalmoscopio.webp" alt="Oftalmoscopio">
+                    <p>Oftalmoscopio</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/iol-master.webp">
-                </a href="../HTML/mostrar-equipos.html?producto=">
-                <p>Iol Master</p>
+                <a href="../HTML/mostrar-equipos.html?producto=IOL-Master">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/iol-master.webp" alt="Iol Master">
+                    <p>Iol Master</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/ofta-indi2.webp">
-                </a href="../HTML/mostrar-equipos.html?producto=">
-                <p>Oftalmoscopio indirecto</p>
+                <a href="../HTML/mostrar-equipos.html?producto=Oftalmoscopio-Indirecto">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/ofta-indi3.webp" alt="Oftalmoscopio indirecto">
+                    <p>Oftalmoscopio indirecto killer</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/quera-km4.webp">
-                </a href="../HTML/mostrar-equipos.html?producto=">
-                <p>Queratometro</p>
-            </div>
-            
-            <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/img-marco-foro.webp">
-                </a href="../HTML/mostrar-equipos.html?producto=">
-                <p>Lensometros</p>
+                <a href="../HTML/mostrar-equipos.html?producto=Queratometro">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/quera-km4.webp" alt="Queratometro">
+                    <p>Queratometro</p>
+                </a>
             </div>
             <div class="product-card">
-                <a href="../HTML/mostrar-equipos.html?producto=">
-                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lensometro-nikon.webp">
-                </a href="../HTML/mostrar-equipos.html?producto=">
-                <p>Lensometros</p>
+                <a href="../HTML/mostrar-equipos.html?producto=tonometro">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/tonometro.webp" alt="Lensometros">
+                    <p>Tonometro</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=Foroptor">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/FOROPTOR.webp" alt="Foroptor">
+                    <p>Foroptor</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=Lensometro">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/lensometro-nikon.webp" alt="Lensometros">
+                    <p>Lensometros</p>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="../HTML/mostrar-equipos.html?producto=visucam">
+                    <img loading="lazy" src="../IMAGENES/EQUIPOS-AVIF/pp.webp" alt="Lensometros">
+                    <p>Camara Visucam</p>
+                </a>
             </div>
         </div>
+
     </section>
     <footer class="footer">
-        <p>Todos los derechos reservados. GM distribuidora</p>
+        <div class="footer-contenido">
+            <div class="footer-seccion">
+                <h3>Información de Contacto</h3>
+                <p>Email: gmdstrbdr@gmail.com</p>
+                <p>Teléfono: +52 55 4080 7136</p>
+                <p>Dirección de bodega: P.º del Otoño 100-Primer piso, La Florida, 53160 Naucalpan de Juárez, Méx.</p>
+                <p>Dirección de Local:Av Francisco I. Madero 70</p>
+            </div>
+            <div class="footer-seccion">
+                <h3>Enlaces Útiles</h3>
+                <ul>
+                    <li><a href="../HTML/sobre-nosotros.html">Acerca de Nosotros</a></li>
+                </ul>
+            </div>
+            <div class="footer-seccion">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/share/14xnNPkcoKd/" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-derechos">
+            <p>&copy; 2023 GM Distribuidora. Todos los derechos reservados.</p>
+        </div>
     </footer>
-
-    <script src="../javaScript/productos-dinamico.js"></script>
 </body>
 </html>

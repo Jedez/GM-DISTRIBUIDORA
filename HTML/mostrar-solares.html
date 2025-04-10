@@ -5,26 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GM distribuidora</title>
     <link rel="preload" href="../CSS/normalize.css" as="style">
-    <link rel="stylesheet" href="../CSS/producto-oftalmico.css">
+    <link rel="stylesheet" href="../CSS/solares.css">
     <link rel="stylesheet" href="../CSS/barra-herramientas.css">
     <link rel="stylesheet" href="../CSS/estilos-paginas.css">
     <link rel="stylesheet" href="../CSS/menu-hamburguesa.css">
-    <meta name="description" content="En GM Distribuidora encontrarás las mejores marcas en lentes oftálmicos, solares y equipos para profesionales de la salud visual. ¡Descubre nuestro catálogo y realiza tus pedidos!">
+    <link rel="stylesheet" href="../CSS/modal-imagen.css"> <meta name="description" content="En GM Distribuidora encontrarás las mejores marcas en lentes oftálmicos, solares y equipos para profesionales de la salud visual. ¡Descubre nuestro catálogo y realiza tus pedidos!">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="../IMAGENES/new-logo.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=eyeglasses" />
     <link rel="stylesheet" href="../CSS/hamburger-menu.css">
-    <script src="../javaScript/productos.js" defer></script>
+    <script src="../javaScript/solares.js" defer></script>
     <script src="../javaScript/barra-busqueda.js" defer></script>
     <script src="../javaScript/hamburger-menu.js" defer></script>
-    <script src="../javaScript/boton-regresar.js" defer></script>
-</head>
+    <script src="../javaScript/modal-imagen.js" defer></script> </head>
 <body>
     <header class="navbar">
         <div class="logo-menu-container">
             <div class="logoInicio">
                 <a href="../index.html">
-                    <img class="logo-nav" loading="lazy" src="../IMAGENES/new-logo.png" alt="Logo GM Distribuidora">
+                    <img src="../IMAGENES/new-logo.png" alt="Logo de la tienda">
                 </a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
@@ -42,11 +41,16 @@
         </div>
     </header>
     <main class="container-productos">
-        <div class="regresar-container">
-            <button id="regresarBtn">Regresar</button>
-        </div>
         <h1 id="marca-titulo"></h1>
-        <div id="productos-list" class="product-list"></div>
+        <div id="productos-list" class="product-list">
+            </div>
+
+        <div class="modal" id="modal-imagen">
+            <div class="modal-content">
+                <span class="close-button" data-modal-close>&times;</span>
+                <img src="" alt="Imagen Grande" class="modal-image">
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="footer-contenido">
@@ -54,7 +58,8 @@
                 <h3>Información de Contacto</h3>
                 <p>Email: gmdstrbdr@gmail.com</p>
                 <p>Teléfono: +52 55 4080 7136</p>
-                <p>Dirección: P.º del Otoño 100-Primer piso, La Florida, 53160 Naucalpan de Juárez, Méx.</p>
+                <p>Dirección de bodega: P.º del Otoño 100-Primer piso, La Florida, 53160 Naucalpan de Juárez, Méx.</p>
+                <p>Dirección de Local:Av Francisco I. Madero 70</p>
             </div>
             <div class="footer-seccion">
                 <h3>Enlaces Útiles</h3>
@@ -73,15 +78,5 @@
             <p>&copy; 2023 GM Distribuidora. Todos los derechos reservados.</p>
         </div>
     </footer>
-
-    <div id="modal-producto" class="modal">
-        <div class="modal-contenido">
-            <span class="cerrar-modal">&times;</span>
-            <h2 id="modal-nombre"></h2>
-            <img id="modal-imagen" src="" alt="">
-            <p id="modal-dimensiones"></p>
-            <p id="modal-stock"></p>
-        </div>
-    </div>
 </body>
 </html>

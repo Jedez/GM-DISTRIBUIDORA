@@ -1,59 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lentes Solares</title>
-    <link rel="stylesheet" href="../CSS/solares.css">
-    <link rel="stylesheet" href="../CSS/barra-herramientas.css">
-    <link rel="stylesheet" href="../CSS/estilos-paginas.css">
-    <link rel="icon" href="../IMAGENES/new-logo.png" type="image/x-icon">
-    <script src="../javaScript/barra-busqueda.js"></script>
-    <script src="../javaScript/usuario.js"></script>
-    <script src="../javaScript/solares.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GM distribuidora</title>
+        <link rel="preload" href="../CSS/normalize.css" as="style">
+        <link rel="stylesheet" href="../CSS/solares.css">
+        <link rel="stylesheet" href="../CSS/barra-herramientas.css">
+        <link rel="stylesheet" href="../CSS/estilos-paginas.css">
+        <link rel="stylesheet" href="../CSS/menu-hamburguesa.css">
+        <meta name="description" content="En GM Distribuidora encontrarás las mejores marcas en lentes oftálmicos, solares y equipos para profesionales de la salud visual. ¡Descubre nuestro catálogo y realiza tus pedidos!">
+        <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="../IMAGENES/new-logo.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=eyeglasses" />
+        <link rel="stylesheet" href="../CSS/hamburger-menu.css">
+        <script src="../javaScript/usuario.js"></script>
+        <script src="../javaScript/barra-busqueda.js" defer></script>
+        <script src="../javaScript/hamburger-menu.js" defer></script>
+    </head>
 <body>
     <header class="navbar">
-        <div class="logoInicio">
-            <a href="../index.html">
-                <img src="../IMAGENES/new-logo.png" alt="Logo de la tienda">
-            </a>
-        </div>
-        <div class="navbar-links">
-            <nav class="navbar-links" id="myNavbar">
-                <a href="../HTML/marcas-oftalmicos.html">Lentes Oftalmicos</a>
-                <a href="../HTML/marcas-solares.html">Lentes Solares</a>
-                <a href="../HTML/equipo-medico.html">Equipos</a>
-            </nav>
-        </div>
-        <div class="search-container">
-            <input type="text" id="search" class="contenedor-busqueda" placeholder="Buscar producto...">
-            <button class="busqueda" onclick="searchProduct()">Buscar</button>
-        </div>
-          <!--  <div class="user-container">
-            <button id="user-button" onclick="toggleUserMenu()">
-                <img src="../IMAGENES/user-icon.png" alt="Usuario" class="user-icon">
-            </button>
-        <div id="user-menu" class="user-menu-hidden">
-                <ul>
-                    <li><a href="#">Perfil</a></li>
-                    <li><a href="#">Configuración</a></li>
-                    <li><a href="#" onclick="logout()">Cerrar sesión</a></li>
-                </ul>
+        <div class="logo-menu-container">
+            <div class="logoInicio">
+                <a href="../index.html">
+                    <img src="../IMAGENES/new-logo.png" alt="Logo de la tienda">
+                </a>
             </div>
-        </div>-->
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+        </div>
+        <nav class="navbar-links" id="myNavbar">
+            <a href="../HTML/marcas-oftalmicos.html">Lentes Oftalmicos</a>
+            <a href="../HTML/marcas-solares.html">Lentes Solares</a>
+            <a href="../HTML/equipo-medico.html">Equipos</a>
+        </nav>
+        <div class="search-container">
+            <form id="search-form" action="../HTML/resultados-busqueda.html" method="get">
+                <input type="text" id="search" class="contenedor-busqueda" placeholder="Buscar producto..." name="query">
+                <button type="submit" class="busqueda" id="buscar-btn">Buscar</button>
+            </form>
+        </div>
     </header>
     <section class="lentes-solares">
         <h2 class="titulo-contenedor">
-            Lentes Solares
+            Marcas
         </h2>
         <div class="product-list">
             <div class="product-card">
-                <a href="../HTML/producto-solar.html?marca=GUCCI">
-                    <img src="../IMAGENES/LOGOS/Gucci_logo.webp">
+                <a href="../HTML/mostrar-solares.html?marca=GUCCI">
+                    <img src="../IMAGENES/LOGOS/Gucci_logo.svg" alt="Lentes Solares GUCCI">
                 </a>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer-contenido">
+            <div class="footer-seccion">
+                <h3>Información de Contacto</h3>
+                <p>Email: gmdstrbdr@gmail.com</p>
+                <p>Teléfono: +52 55 4080 7136</p>
+                <p>Dirección de bodega: P.º del Otoño 100-Primer piso, La Florida, 53160 Naucalpan de Juárez, Méx.</p>
+                <p>Dirección de Local:Av Francisco I. Madero 70</p>
+            </div>
+            <div class="footer-seccion">
+                <h3>Enlaces Útiles</h3>
+                <ul>
+                    <li><a href="../HTML/sobre-nosotros.html">Acerca de Nosotros</a></li>
+                </ul>
+            </div>
+            <div class="footer-seccion">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/share/14xnNPkcoKd/" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-derechos">
+            <p>&copy; 2023 GM Distribuidora. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
