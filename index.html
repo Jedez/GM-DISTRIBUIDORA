@@ -4,18 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>GM distribuidora</title>
-        <link rel="preload" href="/CSS/normalize.css" as="style">
-        <link rel="stylesheet" href="/CSS/index.css">
-        <link rel="stylesheet" href="/CSS/barra-herramientas.css">
-        <link rel="stylesheet" href="/CSS/estilos-paginas.css">
-        <link rel="stylesheet" href="/CSS/menu-hamburguesa.css">
+        <link rel="preload" href="../CSS/normalize.css" as="style">
+        <link rel="stylesheet" href="../CSS/index.css">
+        <link rel="stylesheet" href="../CSS/barra-herramientas.css">
+        <link rel="stylesheet" href="../CSS/estilos-paginas.css">
+        <link rel="stylesheet" href="../CSS/menu-hamburguesa.css">
         <meta name="description" content="En GM Distribuidora encontrarás las mejores marcas en lentes oftálmicos, solares y equipos para profesionales de la salud visual. ¡Descubre nuestro catálogo y realiza tus pedidos!">
         <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="icon" href="/IMAGENES/new-logo.png">
+        <link rel="icon" href="../IMAGENES/new-logo.png">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=eyeglasses" />
-        <link rel="stylesheet" href="/CSS/hamburger-menu.css">
-        <script src="/javaScript/usuario.js"></script>
-        <script src="/javaScript/barra-busqueda.js"></script>
+        <link rel="stylesheet" href="../CSS/hamburger-menu.css">
+        <script src="../javaScript/usuario.js" async></script>
+        <script src="../javaScript/barra-busqueda.js" defer></script>
+        <script src="../javaScript/resultados-busquedas.js" defer></script>
     </head>
 <body>
     <header class="navbar">
@@ -33,9 +34,11 @@
             <a href="../HTML/equipo-medico.html">Equipos</a>
         </nav>
         <div class="search-container">
-            <input type="text" id="search" class="contenedor-busqueda" placeholder="Buscar producto...">
-            <button class="busqueda" onclick="searchProduct()">Buscar</button>
-        </div>
+            <form id="search-form" action="../HTML/resultados-busqueda.html" method="get">
+                <input type="text" id="search" class="contenedor-busqueda" placeholder="Buscar producto..." name="query">
+                <button type="submit" class="busqueda" id="buscar-btn">Buscar</button>
+            </form>
+        </div>        
     </header>
     <section class="hero">
         <div class="contenido-hero">
@@ -43,30 +46,31 @@
         </div>
     </section>
     <main class="contenedor">
-            <section id="rebajas" class="product-section">
-                <h2>¡Rebajas Especiales!</h2>
-                <div class="product-list">
-                    <div class="product-card sale">
-                        <img loading="lazy" src="../IMAGENES/LOGOS/addidasw.webp" alt="Lentes Rebajados">
-                        <p>Rebajas especiales:</p>
-                        <div class="price">
-                            <span class="original-price">$850</span>
-                            <span class="discounted-price">$500</span>
-                        </div>
-                        <span class="sale-banner">¡Oferta!</span>
+        <section id="rebajas" class="product-section">
+            <h2>¡Rebajas Especiales!</h2>
+            <div class="product-list">
+                <div class="product-card sale">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/addidasw.webp" alt="Lentes Rebajados">
+                    <p>Rebajas especiales:</p>
+                    <div class="price">
+                        <span class="original-price">$850</span>
+                        <span class="discounted-price">$500</span>
                     </div>
-                    <div class="product-card sale">
-                        <img loading="lazy" src="../IMAGENES/LOGOS/italia-independent.webp" alt="Lentes Rebajados">
-                        <p>Rebajas especiales </p>
-                        <div class="price">
-                            <span class="original-price">$900</span>
- 
-                            <span class="discounted-price">   $400</span>
-                        </div>
-                        <span class="sale-banner">¡Oferta!</span>
-                    </div>
+                    <span class="sale-banner">¡Oferta!</span>
                 </div>
-            </section>
+                <div class="product-card sale">
+                    <img loading="lazy" src="../IMAGENES/LOGOS/italia-independent.webp" alt="Lentes Rebajados">
+                    <p>Rebajas especiales </p>
+                    <div class="price">
+                        <span class="original-price">$900</span>
+                        <span class="discounted-price">
+                            $400
+                        </span>
+                    </div>
+                    <span class="sale-banner">¡Oferta!</span>
+                </div>
+            </div>
+        </section>
         <h2>Lo que ofrecemos</h2>
         <div class="servicios">
             <section class="servicio">
@@ -119,5 +123,6 @@
             <p>&copy; 2023 GM Distribuidora. Todos los derechos reservados.</p>
         </div>
     </footer>
+    <script src="../javaScript/hamburger-menu.js" defer></script>
 </body>
 </html>
