@@ -1,23 +1,18 @@
 /* equipo-oftalmico.css */
 .productos-equipos {
-    padding: 80px 20px 20px; /* Ajuste del padding superior para el header */
+    padding: 80px 20px 20px;
     max-width: 1200px;
     margin: 20px auto;
 }
 
 .titulo-contenedor {
-    font-size: 3.5rem; /* Reduje un poco el tamaño para mejor adaptación */
-    text-align: center;
-    margin-bottom: 30px; /* Aumenté un poco el margen inferior */
-    color: var(--color-primario); /* Asegúrate de tener esta variable definida en tus estilos globales */
-    font-family: "Bebas Neue", sans-serif; /* Aplica la fuente aquí */
-    font-weight: 400;
-    font-style: normal;
+    font-size: 5rem;
+    color: var(--color-primario);
 }
 
 .product-list {
-    display: grid; /* Usamos grid para una mejor distribución en diferentes tamaños de pantalla */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el ancho mínimo según necesites */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajuste del ancho mínimo */
     gap: 20px;
     width: 100%;
 }
@@ -28,9 +23,9 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     display: flex;
-    flex-direction: column; /* Asegura que la imagen y el texto se apilen */
-    overflow: hidden; /* Recorta cualquier parte de la imagen que sobresalga */
-    transition: transform 0.3s ease; /* Añadida transición para el hover */
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
 .product-card:hover {
@@ -38,36 +33,70 @@
 }
 
 .product-card a {
-    display: block; /* Hace que el enlace ocupe todo el espacio de la tarjeta */
+    display: block;
     width: 100%;
     height: 100%;
-    text-decoration: none; /* Opcional: elimina el subrayado del enlace */
+    text-decoration: none;
     display: flex;
-    flex-direction: column; /* Asegura que la imagen y el texto se apilen dentro del enlace */
+    flex-direction: column;
 }
 
 .product-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 12px 12px 0 0; /* Redondea solo la parte superior */
-    flex-grow: 1; /* La imagen ocupa el espacio disponible */
+    border-radius: 12px 12px 0 0;
+    flex-grow: 1;
 }
 
 .product-card p {
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo un poco más opaco */
+    background-color: rgba(255, 255, 255, 0.9);
     margin: 0;
-    padding: 10px; /* Aumenté un poco el padding */
+    padding: 10px;
     font-weight: bold;
-    color:var(--color-primario);
+    color: var(--color-primario);
     text-align: center;
-    font-size: 1.5rem; /* Ajusta el tamaño de la fuente del texto */
-    font-family: sans-serif; /* Fuente más legible por defecto, puedes cambiarla */
+    font-size: 1.5rem;
+    font-family: sans-serif;
 }
 
-/* Estilo de Fuente Bebas Neue (se aplicó al título) */
-/* .bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-} */
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+        gap: 15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas medianas */
+    }
+}
+
+@media (min-width: 1025px) {
+    .product-list {
+        grid-template-columns: repeat(3, 1fr); /* Tres columnas en pantallas grandes */
+    }
+}
+
+#producto-ampliado {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 8px; /* Sugerencia: añadir un radio para suavizar */
+}
+
+#imagen-ampliada {
+    max-width: 80vw;
+    max-height: 60vh;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 4px; /* Sugerencia: añadir un radio para suavizar */
+}

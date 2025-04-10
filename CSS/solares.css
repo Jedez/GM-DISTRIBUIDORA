@@ -1,63 +1,241 @@
-/* Sección de productos */
-.lentes-solares {
-    padding: 30px; /* Usa una sola propiedad padding */
-    margin: 20px auto; /* Usa una sola propiedad margin */
-    background-color: var(--color-contenedor); /* Asegúrate de que esta variable esté definida */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 1200px;
-}
-
-.titulo-contenedor {
-    font-size: 5rem;
-    text-align: center;
-    margin-bottom: 20px;
-    color: var(--color-primario);
-}
-
-.product-list {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-}
-
+/* Estilos base para .product-card */
 .product-card {
-    background-color: #ffffff;
-    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ccc;
     border-radius: 8px;
-    text-align: center;
-    width: 150px;
-    height: 150px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: calc(30% - 20px);
+    max-width: 400px;
+    margin-right: 20px;
+    min-height: 120px;
+}
+
+/* Estilos para el contenedor del enlace */
+.product-card a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    min-width: 0;
+}
+
+/* Estilos para el contenedor de la imagen (para el modal) */
+.image-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    max-width: 40%;
+    margin-right: 10px;
 }
 
+/* Estilos para la imagen */
 .product-card img {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    flex-shrink: 0;
     object-fit: contain;
 }
 
-.product-card p {
-    margin-top: 10px;
+/* Estilos para el contenedor del texto */
+.product-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 0;
+    overflow: hidden;
+}
+
+/* Estilos para el nombre (modelo) */
+.product-nombre {
     font-weight: bold;
-    color: #333;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1em;
 }
 
-.product-card:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+/* Estilos para el stock */
+.product-stock {
+    font-size: 0.9em;
+    color: #555;
 }
 
-/* Estilo de Fuente Bebas Neue */
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+/* Estilos para la lista de productos */
+#productos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Estilos generales del modal (oculto por defecto) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Contenido del modal */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Botón de cierre */
+.close-button {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para la imagen dentro del modal */
+.modal-image {
+    display: block;
+    max-width: 90%;
+    max-height: 90vh;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+/* Media Query para pantallas más pequeñas (ej. tablets) */
+@media (max-width: 768px) {
+    #productos-list {
+        justify-content: center;
+    }
+
+    .product-card {
+        width: calc(45% - 20px);
+        max-width: none;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .product-card a {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .image-container {
+        max-width: 40%;
+        margin-right: 10px;
+    }
+
+    .product-card img {
+        max-width: 100%;
+    }
+
+    .product-info {
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+/* Media Query para pantallas aún más pequeñas (móviles) */
+@media (max-width: 480px) {
+    #productos-list {
+        justify-content: center;
+    }
+
+    .product-card {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-height: auto;
+    }
+
+    .product-card a {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .image-container {
+        max-width: 70%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .product-card img {
+        max-width: 100%;
+    }
+
+    .product-info {
+        align-items: center;
+        text-align: center;
+    }
+
+    .product-nombre {
+        white-space: normal;
+    }
+}
+
+/* Estilos para la sección de marcas de lentes solares */
+.lentes-solares .product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Estilos para cada tarjeta de marca */
+.lentes-solares .product-list .product-card {
+    width: auto;
+    margin: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para la imagen del logo dentro de la tarjeta */
+.lentes-solares .product-list .product-card a {
+    display: block;
+}
+
+.lentes-solares .product-list .product-card img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }

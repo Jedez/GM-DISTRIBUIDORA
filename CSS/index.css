@@ -1,13 +1,13 @@
 /* Hero */
 .hero {
-    background-image: url(../IMAGENES/PORTADA-solar.jpg);
+    background-image: url(../IMAGENES/GM-PORTADA.webp);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
+    background-size: contain;
+    height: 505px;
     position: relative;
     margin-bottom: 2rem;
     background-position: center center;
-    width: 100%; /* Ocupa todo el ancho */
+    width: 100%;
 }
 
 .contenido-hero {
@@ -19,6 +19,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .contenido-hero h2,
@@ -30,7 +31,7 @@
 .contenedor {
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px; /* Usa una sola propiedad padding */
+    padding: 20px;
     background-color: var(--color-fondo);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -69,21 +70,26 @@
     font-size: 2rem;
 }
 
-/* Productos */
-.rebajas {
+/* Rebajas */
+#rebajas.product-section {
+    padding: 2rem;
     text-align: center;
-    padding: 2rem 0;
-    background-color: var(--color-fondo2);
+ 
 }
 
-.product-list {
+#rebajas h2 {
+    margin-bottom: 1rem;
+}
+
+#rebajas .product-list {
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+    margin-top: 1rem;
 }
 
-.product-card {
+#rebajas .product-card {
     background-color: #ffffff;
     border: 2px solid #e0e0e0;
     border-radius: 12px;
@@ -94,28 +100,31 @@
     position: relative;
 }
 
-.product-card img {
+#rebajas .product-card img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 0.5rem;
+    display: block; /* Asegurando que la imagen sea un bloque para centrar con márgenes */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.price {
+#rebajas .price {
     margin-top: 0.5rem;
 }
 
-.original-price {
+#rebajas .original-price {
     text-decoration: line-through;
     color: #888;
     margin-right: 0.5rem;
 }
 
-.discounted-price {
+#rebajas .discounted-price {
     color: #e63946;
     font-weight: bold;
 }
 
-.sale-banner {
+#rebajas .sale-banner {
     background-color: #e63946;
     color: #fff;
     padding: 0.3rem 1rem;
@@ -126,31 +135,12 @@
     right: 10px;
 }
 
-/* En index.css */
-#rebajas.product-section { /* Usando la clase product-section que ya tienes */
-    padding: 2rem; /* Añade un espacio alrededor de la sección */
-    text-align: center; /* Centra el título si lo deseas */
-}
-
-#rebajas h2 {
-    margin-bottom: 1rem; /* Espacio debajo del título */
-}
-
-
 /* Footer */
 .footer {
     text-align: center;
     width: 100%;
-    padding: 20px; /* Usa una sola propiedad padding */
+    padding: 20px;
     background-color: var(--color-fondo);
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
-
-/* En index.css */
-.rebajas .product-list { /* Especificando que aplique solo dentro de la sección rebajas */
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    margin-top: 1rem; /* Espacio entre el título y la lista */
-}
+ 

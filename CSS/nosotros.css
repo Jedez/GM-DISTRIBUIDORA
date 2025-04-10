@@ -1,0 +1,116 @@
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.seccion-intro,
+.mision,
+.vision {
+    text-align: justify; /* Justifica el texto */
+}
+
+.seccion-intro {
+    margin-bottom: 40px;
+}
+
+.seccion-mision-vision {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Añadido para mejor responsividad */
+}
+
+.mision,
+.vision {
+    width: 45%;
+    margin-bottom: 20px; /* Añadido para espaciar en pantallas pequeñas */
+}
+
+.seccion-valores ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seccion-valores li {
+    margin-bottom: 10px;
+}
+
+.seccion-equipo {
+    text-align: center;
+}
+
+.equipo-miembros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.miembro {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.miembro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Sugerencia: añadir un radio para suavizar */
+}
+
+.regresar-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+#regresarBtn {
+    padding: 15px 30px;
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Añadí más propiedades a la transición */
+}
+
+#regresarBtn:hover {
+    background-color: #E65337;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Media query para pantallas de dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .regresar-container {
+        top: 10px;
+        left: 10px;
+    }
+
+    #regresarBtn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .seccion-mision-vision {
+        flex-direction: column; /* Apila misión y visión en móviles */
+        align-items: center; /* Centra los elementos apilados */
+    }
+
+    .mision,
+    .vision {
+        width: 90%; /* Ocupan más ancho en móviles */
+    }
+
+    .equipo-miembros {
+        flex-direction: column; /* Apila los miembros del equipo en móviles */
+        align-items: center; /* Centra los miembros del equipo */
+    }
+
+    .miembro {
+        width: 80%; /* Ocupan más ancho en móviles */
+    }
+}

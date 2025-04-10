@@ -1,0 +1,53 @@
+/* Logo y contenedor del menú */
+.logo-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+}
+
+/* Logo específico */
+.logoInicio img {
+    width: 50px; /* Tamaño fijo para mejor control */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logoInicio:hover img {
+    transform: scale(1.05);
+}
+
+/* Icono hamburguesa */
+.icon {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    order: 2; /* Posiciona a la derecha */
+}
+
+/* Versión móvil */
+@media screen and (max-width: 768px) {
+    .logo-menu-container {
+        padding: 5px 10px;
+    }
+    
+    .icon {
+        display: block;
+        order: 2; /* Icono a la derecha */
+    }
+    
+    .logoInicio {
+        order: 1; /* Logo a la izquierda */
+        margin-right: auto; /* Empuja el icono a la derecha */
+    }
+    
+    .logoInicio img {
+        width: 40px; /* Un poco más pequeño en móviles */
+    }
+}

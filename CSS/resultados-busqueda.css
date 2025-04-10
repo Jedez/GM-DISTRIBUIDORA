@@ -1,0 +1,101 @@
+/* Estilos específicos para la página de resultados de búsqueda */
+
+.resultados-section {
+    padding: 20px;
+   }
+   
+   .resultados-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+   }
+   
+   #termino-busqueda {
+    font-weight: bold;
+    color: var(--color-principal);
+    /* Usa tus variables de color si las tienes */
+   }
+   
+   .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Diseño de cuadrícula adaptable */
+    gap: 20px;
+    margin-top: 20px;
+   }
+   
+   .producto-resultado {
+    /* Estilos base */
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+   }
+   
+   /* Nuevos estilos para la "card" */
+   .producto-resultado.card {
+    background-color: #fff;
+    /* Fondo blanco o el que prefieras */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombreado suave */
+    transition: transform 0.2s ease-in-out;
+    /* Transición suave al hacer hover */
+   }
+   
+   .producto-resultado.card:hover {
+    transform: translateY(-5px);
+    /* Pequeño desplazamiento hacia arriba al hacer hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Sombreado más intenso al hacer hover */
+   }
+   
+   .producto-resultado h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+   }
+   
+   .producto-resultado p {
+    margin-bottom: 10px;
+    color: #555;
+   }
+   
+   .producto-resultado img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+   }
+   
+   .no-resultados {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #777;
+   }
+   
+   .regresar-container {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+   }
+   
+   #regresarBtn {
+    padding: 15px 30px;
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    /* Añadí transiciones para más propiedades */
+   }
+   
+   #regresarBtn:hover {
+    background-color: #E65337;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+   }

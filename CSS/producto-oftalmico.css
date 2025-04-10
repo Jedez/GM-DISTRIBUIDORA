@@ -1,0 +1,187 @@
+/* Contenedor de Productos */
+.container-productos {
+    padding: 20px;
+    padding-top: 20px; /* 80px es la altura del header y 20px el margen deseado */
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Header Contenedor */
+.header-container {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Asegura que esté por encima del contenido */
+}
+
+/* Título de la Marca */
+#marca-titulo {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--color-primario);
+    margin-bottom: 30px;
+}
+
+/* Lista de Productos */
+.product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Tarjeta de Producto */
+.product-card {
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    position: relative; /* Para posicionar el banner de oferta si se usa aquí */
+}
+
+/* Imagen de Producto */
+.product-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+/* Precio */
+.price {
+    margin-top: 0.5rem;
+}
+
+/* Precio Original */
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 0.5rem;
+}
+
+/* Precio con Descuento */
+.discounted-price {
+    color: #e63946;
+    font-weight: bold;
+}
+
+/* Banner de Oferta */
+.sale-banner {
+    background-color: #e63946;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--color-fondo);
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.regresar-container {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+#regresarBtn {
+    padding: 15px 30px;
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Añadí transiciones para más propiedades */
+}
+
+#regresarBtn:hover {
+    background-color: #E65337;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Media query para pantallas de dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .regresar-container {
+        top: 10px;
+        left: 10px;
+    }
+
+    #regresarBtn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000; /* Asegurando que esté por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contenido {
+    background-color: #fefefe;
+    border-radius: 3%;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.cerrar-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cerrar-modal:hover,
+.cerrar-modal:focus {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para el modal en dispositivos móviles */
+    .modal-contenido { /* Apliqué el estilo al contenedor del contenido */
+        width: 95%; /* Ajusta el ancho del modal */
+        margin: 10% auto; /* Ajusta el margen para mejor visualización */
+    }
+    .modal-contenido img {
+        max-width: 100%;
+        max-height: 80vh; /* Ajusta la altura máxima de la imagen */
+    }
+    .cerrar-modal {
+        font-size: 24px; /* Reduce el tamaño del botón de cerrar en móviles */
+        top: 5px;
+        right: 10px;
+    }
+}
+
+ 

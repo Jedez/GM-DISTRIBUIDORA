@@ -1,8 +1,8 @@
 /* Sección de productos */
 .product-section {
-    padding: 30px; /* Usa una sola propiedad padding */
-    margin: 20px auto; /* Usa una sola propiedad margin */
-    background-color: var(--color-contenedor); /* Asegúrate de que esta variable esté definida (no lo está en :root) */
+    padding: 30px;
+    margin: 20px auto;
+    background-color: var(--color-contenedor); /* Variable no definida en :root */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -36,6 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.3s ease; /* Agregué la transición aquí */
 }
 
 .product-card img {
@@ -52,17 +53,4 @@
 
 .product-card:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease;
 }
-
-/* Estilo de Fuente Bebas Neue - ELIMINADO PORQUE NO SE USA EN EL HTML PROPORCIONADO */
-/* .bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-} */
-
-/* Estilos para main - ELIMINADOS PORQUE EL ELEMENTO NO ESTÁ EN EL HTML */
-/* main {
-    padding-top: 70px;
-} */
